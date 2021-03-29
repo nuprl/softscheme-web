@@ -26,7 +26,7 @@ async function onTypeCheck() {
         headers: {
             'Content-Type': 'text/plain'
         },
-        body: document.getElementById('program').textContent
+        body: document.getElementById('program').value
     });
     document.getElementById('result').textContent = await resp.text();
 }
