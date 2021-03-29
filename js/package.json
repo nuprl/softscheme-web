@@ -1,0 +1,11 @@
+{
+  "name": "soft-scheme-as-a-service",
+  "version": "1.0.0",
+  "description": "A web interface to Soft Scheme",
+  "main": "index.js",
+  "author": "Arjun Guha <a.guha@northeastern.edu>",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

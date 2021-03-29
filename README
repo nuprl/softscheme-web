@@ -1,0 +1,23 @@
+A Web Frontend to Soft Scheme. Contains code from:
+
+- Soft Scheme: 
+  https://github.com/skangas/guile/blob/master/gc-benchmarks/larceny/softscheme.sch
+
+- Petit Larceny:
+  http://larcenists.org/download-petit.html
+
+You can run this locally on a Linux distro that supports 32-bit executables
+as follows:
+
+  (cd js && npm install) # just once
+  node js
+
+You can build a Docker image all dependencies by running 'make'.
+
+You can run the Docker web server like this:
+
+  docker run -d --name softscheme -p 0.0.0.0:8080:8080/tcp arjunguha/softscheme
+
+Visit http://localhost:8080 in your browser.
+
+

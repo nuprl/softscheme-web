@@ -1,0 +1,36 @@
+<html>
+
+<body>
+
+    <marquee>🚧 This site is under construction. 🚧</marquee>
+    <h1>Soft Scheme</h1>
+
+<textarea rows="25" cols="80" id="program">
+(define FUNC
+  (lambda (f)
+    (lambda (x)
+      (x (f x)))))
+</textarea>
+
+<p>
+<button id="submit" onclick='onTypeCheck()'>Type Check ✅</button>
+</p>
+
+<pre id="result"></pre>
+
+<script>
+async function onTypeCheck() {
+    let resp = await fetch('/typeCheck', {
+        method: 'POST',
+        cache: 'no-cache',
+        headers: {
+            'Content-Type': 'text/plain'
+        },
+        body: document.getElementById('program').textContent
+    });
+    document.getElementById('result').textContent = await resp.text();
+}
+</script>
+
+</body>
+</html>
