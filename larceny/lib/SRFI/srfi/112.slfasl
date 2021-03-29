@@ -1,0 +1,18 @@
+#!fasl
+(define .petit-bootstrap-id-a821437b48ed66a8c08d63b55875b1d4 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/SRFI/srfi/112.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-a821437b48ed66a8c08d63b55875b1d4 0
+'#(#f #( #f #ex:unspecified #|\x0;os-version~1pxGHH~35268| #|\x0;os-type~1pxGHH~35267| #|\x0;os-name~1pxGHH~35266| #|\x0;machine-name~1pxGHH~35265| #|\x0;cpu-architecture~1pxGHH~35264| #|\x0;implementation-version~1pxGHH~35263| #|\x0;implementation-name~1pxGHH~35262| #|\x0;get-feature~1pxGHH~35261| #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( ((0 . #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ())) (2718 . #(|\x0;os-version~1pxGHH~35268| #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ())) (6011 . #(|\x0;cpu-architecture~1pxGHH~35264| #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ())) (7462 . #(|\x0;implementation-version~1pxGHH~35263| #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ())) (10755 . #(|\x0;implementation-name~1pxGHH~35262| #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ())) (12612 . #(|\x0;get-feature~1pxGHH~35261| #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (|\x0;feature-name~1pxGHH~35325|)))) #ex:undefined #|\x0;os-version~1pxGHH~35268| #|\x0;os-type~1pxGHH~35267| #|\x0;os-name~1pxGHH~35266| #|\x0;machine-name~1pxGHH~35265| #|\x0;cpu-architecture~1pxGHH~35264| #|\x0;implementation-version~1pxGHH~35263| #|\x0;implementation-name~1pxGHH~35262| #|\x0;get-feature~1pxGHH~35261| #f #( #(#f #f 7 src/Build/compile-standard-libraries.sch #(20 1 0) (t0f0010 t0f0020 t0f0030 t0f0040 t0f0050 t0f0060 t0f0070)) #|\x0;implementation-name~1pxGHH~35262| #|\x0;implementation-version~1pxGHH~35263| #|\x0;cpu-architecture~1pxGHH~35264| #|\x0;machine-name~1pxGHH~35265| #|\x0;os-name~1pxGHH~35266| #|\x0;os-type~1pxGHH~35267| #|\x0;os-version~1pxGHH~35268| #values)
+ #values #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #apply #system-features os-minor-version #assq os-major-version #number->string "." #string-append arch-name "IAssassin" #string=? "IA32" larceny-minor-version larceny-major-version "Larceny" "Standard-C" "Petit Larceny" os-name)
+ (srfi 112) ((implementation-name variable |\x0;implementation-name~1pxGHH~35262| (0) #f (srfi 112)) (implementation-version variable |\x0;implementation-version~1pxGHH~35263| (0) #f (srfi 112)) (cpu-architecture variable |\x0;cpu-architecture~1pxGHH~35264| (0) #f (srfi 112)) (machine-name variable |\x0;machine-name~1pxGHH~35265| (0) #f (srfi 112)) (os-name variable |\x0;os-name~1pxGHH~35266| (0) #f (srfi 112)) (os-type variable |\x0;os-type~1pxGHH~35267| (0) #f (srfi 112)) (os-version variable |\x0;os-version~1pxGHH~35268| (0) #f (srfi 112))) (((scheme base) 0)) (|\x0;build~1pxGHH~4481|) |\x0;build~1pxGHH~35330| #ex:make-library #ex:register-library! #values)
+ #f)
+))

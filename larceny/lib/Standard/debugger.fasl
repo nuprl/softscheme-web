@@ -1,0 +1,23 @@
+#!fasl
+(define .petit-bootstrap-id-50e9254b68e24e94912b7edbaa1faaac (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/Standard/debugger.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-50e9254b68e24e94912b7edbaa1faaac 0
+'#(#f #( #f debug #require)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-50e9254b68e24e94912b7edbaa1faaac 1
+'#(#f #( #f inspect-cont #require)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-50e9254b68e24e94912b7edbaa1faaac 2
+'#(#f #( #f trace #require)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-50e9254b68e24e94912b7edbaa1faaac 3
+'#(#f #( #f pretty #require)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-50e9254b68e24e94912b7edbaa1faaac 4
+'#(#f #( #f #install-debugger)
+ #f)
+))

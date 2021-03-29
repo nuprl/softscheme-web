@@ -1,0 +1,12 @@
+#!fasl
+(define .petit-bootstrap-id-bf8cef97edb1d1c961cd2da0d87891ee (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/R7RS/scheme/repl.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-bf8cef97edb1d1c961cd2da0d87891ee 0
+'#(#f #( #f #ex:unspecified #|\x0;interaction-environment~1pxGHH~9046| #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #ex:undefined #|\x0;interaction-environment~1pxGHH~9046| #f #( #(#f #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (t0f0010)) #|\x0;interaction-environment~1pxGHH~9046| #values)
+ #values #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #ex:interaction-environment)
+ #apply)
+ (scheme repl) ((interaction-environment variable |\x0;interaction-environment~1pxGHH~9046| (0) #f (scheme repl))) (((larceny r7rs primitives lowlevel) 0) ((rnrs base) 0)) (|\x0;build~1pxGHH~3686| |\x0;build~1pxGHH~1533|) |\x0;build~1pxGHH~9048| #ex:make-library #ex:register-library! #values)
+ #f)
+))

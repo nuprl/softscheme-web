@@ -1,0 +1,109 @@
+#!fasl
+(define .petit-bootstrap-id-37129705da008c8a7a1704b5fc4080b1 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/R6RS/r6rs-runtime.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-37129705da008c8a7a1704b5fc4080b1 0
+'#(#f #( #f #ex:unspecified ex:unspecified)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-37129705da008c8a7a1704b5fc4080b1 1
+'#(#f #( #f #f #( ((0 . #(ex:make-library #f 8 src/Build/compile-standard-libraries.sch #(20 1 0) (name envs exports imports builds visiter invoker build))) (140 . #(ex:make-library #f 8 src/Build/compile-standard-libraries.sch #(20 1 0) (name envs exports imports builds visiter invoker build)))))
+ #ex:make-library ex:make-library)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-37129705da008c8a7a1704b5fc4080b1 2
+'#(#f #( #f #f #( #(ex:library-name #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (lib)))
+ #ex:library-name ex:library-name)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-37129705da008c8a7a1704b5fc4080b1 3
+'#(#f #( #f #f #( ((0 . #(ex:library-envs #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (lib))) (140 . #(ex:library-envs #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (lib)))))
+ #ex:library-envs ex:library-envs)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-37129705da008c8a7a1704b5fc4080b1 4
+'#(#f #( #f #f #( ((0 . #(ex:library-exports #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (lib))) (140 . #(ex:library-exports #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (lib)))))
+ #ex:library-exports ex:library-exports)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-37129705da008c8a7a1704b5fc4080b1 5
+'#(#f #( #f #f #( ((0 . #(ex:library-imports #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (lib))) (140 . #(ex:library-imports #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (lib)))))
+ #ex:library-imports ex:library-imports)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-37129705da008c8a7a1704b5fc4080b1 6
+'#(#f #( #f #f #( ((0 . #(ex:library-builds #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (lib))) (140 . #(ex:library-builds #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (lib)))))
+ #ex:library-builds ex:library-builds)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-37129705da008c8a7a1704b5fc4080b1 7
+'#(#f #( #f #f #( ((0 . #(ex:library-visiter #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (lib))) (140 . #(ex:library-visiter #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (lib)))))
+ #ex:library-visiter ex:library-visiter)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-37129705da008c8a7a1704b5fc4080b1 8
+'#(#f #( #f #f #( ((0 . #(ex:library-invoker #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (lib))) (140 . #(ex:library-invoker #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (lib)))))
+ #ex:library-invoker ex:library-invoker)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-37129705da008c8a7a1704b5fc4080b1 9
+'#(#f #( #f #f #( ((0 . #(ex:library-build #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (lib))) (142 . #(ex:library-build #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (lib)))))
+ #ex:library-build ex:library-build)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-37129705da008c8a7a1704b5fc4080b1 10
+'#(#f #( #f #f #( ((0 . #(ex:library-visited? #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (lib))) (142 . #(ex:library-visited? #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (lib)))))
+ #ex:library-visited? ex:library-visited?)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-37129705da008c8a7a1704b5fc4080b1 11
+'#(#f #( #f #f #( ((0 . #(ex:library-invoked? #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (lib))) (142 . #(ex:library-invoked? #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (lib)))))
+ #ex:library-invoked? ex:library-invoked?)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-37129705da008c8a7a1704b5fc4080b1 12
+'#(#f #( #f #f #( ((0 . #(ex:library-visited?-set! #f 2 src/Build/compile-standard-libraries.sch #(20 1 0) (lib b))) (142 . #(ex:library-visited?-set! #f 2 src/Build/compile-standard-libraries.sch #(20 1 0) (lib b)))))
+ #ex:library-visited?-set! ex:library-visited?-set!)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-37129705da008c8a7a1704b5fc4080b1 13
+'#(#f #( #f #f #( ((0 . #(ex:library-invoked?-set! #f 2 src/Build/compile-standard-libraries.sch #(20 1 0) (lib b))) (142 . #(ex:library-invoked?-set! #f 2 src/Build/compile-standard-libraries.sch #(20 1 0) (lib b)))))
+ #ex:library-invoked?-set! ex:library-invoked?-set!)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-37129705da008c8a7a1704b5fc4080b1 14
+'#(#f #( #f #ex:imported ex:imported)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-37129705da008c8a7a1704b5fc4080b1 15
+'#(#f #( #f #f #( ((0 . #(ex:import-libraries-for #f 5 src/Build/compile-standard-libraries.sch #(20 1 0) (imports builds phase importer run-or-expand))) (540 . #(loop #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (|.y1\|97\|98|))) (1771 . #(loop #f 2 src/Build/compile-standard-libraries.sch #(20 1 0) (|.y1\|6\|8| |.y1\|6\|7|))) (4300 . #(import-library #f 3 src/Build/compile-standard-libraries.sch #(20 1 0) (name build phase))) (8092 . #(import-libraries #f 3 src/Build/compile-standard-libraries.sch #(20 1 0) (imports builds phase)))) #f #( ((0 . #(#f #f 2 src/Build/compile-standard-libraries.sch #(20 1 0) (import build))) (508 . #(loop #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (|.y1\|37\|38|)))))
+ #larceny:for-each #ex:imported #member #ex:lookup-library #ex:library-build import "Client was expanded against a different build of this library" #assertion-violation #ex:library-builds #ex:library-imports #values)
+ #ex:import-libraries-for ex:import-libraries-for)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-37129705da008c8a7a1704b5fc4080b1 16
+'#(#f #( #f #f #( ((0 . #(ex:import-libraries-for-run #f 3 src/Build/compile-standard-libraries.sch #(20 1 0) (imports builds phase))) (142 . #(ex:import-libraries-for-run #f 3 src/Build/compile-standard-libraries.sch #(20 1 0) (imports builds phase)))) #f #( #(#f #f 3 src/Build/compile-standard-libraries.sch #(20 1 0) (library phase imported)) #ex:library-invoked? #ex:library-invoker #ex:library-invoked?-set!)
+ run #ex:import-libraries-for)
+ #ex:import-libraries-for-run ex:import-libraries-for-run)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-37129705da008c8a7a1704b5fc4080b1 17
+'#(#f #( #f #ex:register-library! ex:register-library!)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-37129705da008c8a7a1704b5fc4080b1 18
+'#(#f #( #f #ex:lookup-library ex:lookup-library)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-37129705da008c8a7a1704b5fc4080b1 19
+'#(#f #( #f #f #( #(ex:register-library! #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (library)) #f #( #(#f #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (entry)) #ex:library-name #equal?)
+ #ex:imported #filter)
+ #ex:register-library! #f #( #(ex:lookup-library #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (name)) #assoc #larceny:autoload-r6rs-library #ex:lookup-library lookup-library "library not loaded" #assertion-violation)
+ #ex:lookup-library)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-37129705da008c8a7a1704b5fc4080b1 20
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) runtime.scm "Attempt to use runtime instance of (core primitive-macros) for expansion.  Make sure expander.scm is loaded after runtime.scm." #assertion-violation)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ (core primitive-macros) system #ex:make-library #ex:register-library!)
+ #f)
+))

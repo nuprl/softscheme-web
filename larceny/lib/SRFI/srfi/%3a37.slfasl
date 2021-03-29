@@ -1,0 +1,11 @@
+#!fasl
+(define .petit-bootstrap-id-f43828c9deb4f6a87ee6df0d8882737d (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/SRFI/srfi/%3a37.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-f43828c9deb4f6a87ee6df0d8882737d 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ #values #apply)
+ (srfi :37) ((option variable |\x0;option~1pxGHH~55810| (0) #f (srfi 37)) (option-names variable |\x0;option-names~1pxGHH~55812| (0) #f (srfi 37)) (option-required-arg? variable |\x0;option-required-arg?~1pxGHH~55813| (0) #f (srfi 37)) (option-optional-arg? variable |\x0;option-optional-arg?~1pxGHH~55814| (0) #f (srfi 37)) (option-processor variable |\x0;option-processor~1pxGHH~55815| (0) #f (srfi 37)) (args-fold variable |\x0;args-fold~1pxGHH~55816| (0) #f (srfi 37))) (((srfi 37) 0)) (|\x0;build~1pxGHH~56072|) |\x0;build~1pxGHH~79415| #ex:make-library #ex:register-library! #values)
+ #f)
+))

@@ -1,0 +1,11 @@
+#!fasl
+(define .petit-bootstrap-id-a14dfdae4bbe9928bf87fd3b79b92cfa (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/R7RS/scheme/box.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-a14dfdae4bbe9928bf87fd3b79b92cfa 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #values #apply)
+ (scheme box) ((box variable |\x0;box~1pxGHH~23561| (0) #f (srfi 111)) (box? variable |\x0;box?~1pxGHH~23562| (0) #f (srfi 111)) (unbox variable |\x0;unbox~1pxGHH~23563| (0) #f (srfi 111)) (set-box! variable |\x0;set-box!~1pxGHH~23564| (0) #f (srfi 111))) (((srfi 111) 0)) (|\x0;build~1pxGHH~23570|) |\x0;build~1pxGHH~23575| #ex:make-library #ex:register-library! #values)
+ #f)
+))

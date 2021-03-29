@@ -1,0 +1,12 @@
+#!fasl
+(define .petit-bootstrap-id-ff3a14862d6ea1cd8e194cd5e3d6dced (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/Standard/coroutine.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-ff3a14862d6ea1cd8e194cd5e3d6dced 0
+'#(#f #( #f #f #( ((0 . #(make-coroutine #f 1 #f #f (f))) (140 . #(make-coroutine #f 1 #f #f (f)))) #f #( #(#f #f 1 #f #f (maker)) * #f #( #(#f #f 2 #f #f (dest val)) #f #( #(#f #f 1 #f #f (k)))
+ #call-with-current-continuation)
+ #f #( #(#f #f 1 #f #f (v)))
+ "Coroutine fell off the end." #error)
+ #call-with-current-continuation)
+ #make-coroutine make-coroutine)
+ #f)
+))

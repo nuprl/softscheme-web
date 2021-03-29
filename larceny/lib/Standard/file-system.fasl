@@ -1,0 +1,45 @@
+#!fasl
+(define .petit-bootstrap-id-b177faab1f141e836581d0c256da4362 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/Standard/file-system.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-b177faab1f141e836581d0c256da4362 0
+'#(#f #( #f foreign-ctools #require)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-b177faab1f141e836581d0c256da4362 1
+'#(#f #( #f std-ffi #require)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-b177faab1f141e836581d0c256da4362 2
+'#(#f #( #f foreign-stdlib #require)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-b177faab1f141e836581d0c256da4362 3
+'#(#f #( #f srfi-0 #require)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-b177faab1f141e836581d0c256da4362 4
+'#(#f #( #f #file-modification-time #f #( #(#f #f 1 #f #f (fn)) "file-modification-time: \"" "\" does not exist." #error)
+ file-modification-time)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-b177faab1f141e836581d0c256da4362 5
+'#(#f #( #f #f #( ((0 . #(file-newer? #f 2 #f #f (f1 f2))) (812 . #(loop #f 1 #f #f (i)))) #file-modification-time)
+ #file-newer? file-newer?)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-b177faab1f141e836581d0c256da4362 6
+'#(#f #( #f #f #( ((5507 . #(loop #f 2 #f #f (l i)))) #f #( ((0 . #(list-directory #f 1 #f #f (path))) (1927 . #(loop #f 1 #f #f (ent)))) list-directory ": error opening directory " #error)
+ "readdir" (unsigned) unsigned #foreign-procedure "opendir" (string) "closedir" void #list-directory #f #( ((0 . #(#f #f 0 #f #f ())) (7056 . #(make-stat-alist #f 1 #f #f (stat))) (7169 . #(loop #f 2 #f #f (|.y1\|334\|335| |.results\|334\|338|)))) "__xstat" (int string boxed) int #foreign-procedure #f #( #(#f #f 2 #f #f (name buf)))
+ "__fxstat" #f #( #(#f #f 2 #f #f (name buf)))
+ "__lxstat" #f #( #(#f #f 2 #f #f (name buf)))
+ #f #( #(#f #f 1 #f #f (n)) #%get8 #%get16 #%get32 #%get64 stat-alist-definition "Unhandled size for getters" #error)
+ #f #( #(mode-type #f 1 #f #f (mode)) regular directory block-special character-special fifo symbolic-link unknown)
+ #f #( #(file-directory? #f 1 #f #f (filename)) #stat-alist mode #assq directory)
+ #f #( #(file-length #f 1 #f #f (filename)) #stat-alist size #assq)
+ (dev ino mode nlink uid gid rdev size atime mtime ctime blksize blocks) #values #f #( ((0 . #(#f #f 1 #f #f (filename))) (1531 . #(loop #f 4 #f #f (|.y1\|158\|161| |.y1\|158\|160| |.y1\|158\|159| |.results\|158\|164|)))) stat ": something went wrong: " " " #error #f #( #(#f #f 3 #f #f (name get offset)))
+ #larceny:map #reverse #append)
+ #reverse)
+ #list #call-with-values #stat-alist #fstat-alist #lstat-alist #mode-type #file-directory? #file-length file-length #%peek8 #reverse #list->string)
+)
+ #f)
+))

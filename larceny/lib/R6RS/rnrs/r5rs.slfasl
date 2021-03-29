@@ -1,0 +1,12 @@
+#!fasl
+(define .petit-bootstrap-id-127859c78ce268f3b4017d9124814ec8 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/R6RS/rnrs/r5rs.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-127859c78ce268f3b4017d9124814ec8 0
+'#(#f #( #f #ex:unspecified #|\x0;null-environment~1pxGHH~4440| #|\x0;scheme-report-environment~1pxGHH~4439| #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #ex:undefined #|\x0;null-environment~1pxGHH~4440| #|\x0;scheme-report-environment~1pxGHH~4439| #f #( #(scheme-report-environment #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (|\x0;n~1pxGHH~4453|)) scheme-report-environment "Argument should be 5" #assertion-violation (r5rs) #ex:environment)
+ (only (rnrs base) begin if lambda quote set! and or define define-syntax let-syntax letrec-syntax let let* letrec case cond else => quasiquote unquote unquote-splicing syntax-rules ...) (only (rnrs control) do) #ex:environment #f #( #(#f #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (|\x0;n~1pxGHH~4445|)) null-environment "Argument should be 5" #assertion-violation)
+ #values)
+ (rnrs r5rs) ((null-environment variable |\x0;null-environment~1pxGHH~4440| (0) #f (rnrs r5rs)) (scheme-report-environment variable |\x0;scheme-report-environment~1pxGHH~4439| (0) #f (rnrs r5rs)) (delay macro |\x0;delay~1pxGHH~3736| (0) #f (larceny r7rs promises)) (force variable |\x0;force~1pxGHH~3751| (0) #f (larceny r7rs promises)) (exact->inexact variable exact->inexact (0) #f (larceny PRIMITIVES)) (inexact->exact variable inexact->exact (0) #f (larceny PRIMITIVES)) (quotient variable quotient (0) #f (larceny PRIMITIVES)) (remainder variable remainder (0) #f (larceny PRIMITIVES)) (modulo variable modulo (0) #f (larceny PRIMITIVES))) (((larceny r7rs promises) 0) ((rnrs control) 0) ((rnrs base) 0) ((rnrs eval) 0)) (|\x0;build~1pxGHH~3810| |\x0;build~1pxGHH~4373| |\x0;build~1pxGHH~1533| |\x0;build~1pxGHH~4431|) |\x0;build~1pxGHH~4459| #ex:make-library #ex:register-library! #values)
+ #f)
+))

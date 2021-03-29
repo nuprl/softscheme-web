@@ -1,0 +1,75 @@
+#!fasl
+(define .petit-bootstrap-id-dfff24c4615a960f1f49c8fb257e49fb (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/R6RS/../R7RS/r7rs-includer.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-dfff24c4615a960f1f49c8fb257e49fb 0
+'#(#f #( #f #f #( ((0 . #(larceny:include #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (filenames))) (528 . #(loop #f 2 src/Build/compile-standard-libraries.sch #(20 1 0) (|.y1\|5\|6| |.results\|5\|9|)))) begin #reverse #larceny:include-file)
+ #larceny:include larceny:include)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-dfff24c4615a960f1f49c8fb257e49fb 1
+'#(#f #( #f #f #( ((0 . #(larceny:include-ci #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (filenames))) (528 . #(loop #f 2 src/Build/compile-standard-libraries.sch #(20 1 0) (|.y1\|5\|6| |.results\|5\|9|)))) begin #reverse #larceny:include-ci-file)
+ #larceny:include-ci larceny:include-ci)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-dfff24c4615a960f1f49c8fb257e49fb 2
+'#(#f #( #f #f #( ((0 . #(larceny:include-library-declarations #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (filenames))) (528 . #(loop #f 2 src/Build/compile-standard-libraries.sch #(20 1 0) (|.y1\|5\|6| |.results\|5\|9|)))) begin #reverse #larceny:include-library-declarations-file)
+ #larceny:include-library-declarations larceny:include-library-declarations)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-dfff24c4615a960f1f49c8fb257e49fb 3
+'#(#f #( #f #f #( ((0 . #(larceny:included-forms? #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (x))) (140 . #(larceny:included-forms? #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (x)))) #list? #length #*inclusion-token*)
+ #larceny:included-forms? larceny:included-forms?)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-dfff24c4615a960f1f49c8fb257e49fb 4
+'#(#f #( #f #f #( ((0 . #(larceny:included-forms-as-list #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (x))) (140 . #(larceny:included-forms-as-list #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (x)))) #larceny:included-forms?)
+ #larceny:included-forms-as-list larceny:included-forms-as-list)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-dfff24c4615a960f1f49c8fb257e49fb 5
+'#(#f #( #f #f #( ((0 . #(larceny:source-path-of-included-forms #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (x))) (140 . #(larceny:source-path-of-included-forms #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (x)))) #larceny:included-forms? #values)
+ #larceny:source-path-of-included-forms larceny:source-path-of-included-forms)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-dfff24c4615a960f1f49c8fb257e49fb 6
+'#(#f #( #f "included from " #string-copy #*inclusion-token* *inclusion-token*)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-dfff24c4615a960f1f49c8fb257e49fb 7
+'#(#f #( #f #f #( ((0 . #(larceny:make-included-begin-form #f 3 src/Build/compile-standard-libraries.sch #(20 1 0) (forms dirname basename))) (140 . #(larceny:make-included-begin-form #f 3 src/Build/compile-standard-libraries.sch #(20 1 0) (forms dirname basename)))) #*inclusion-token* begin #append)
+ #larceny:make-included-begin-form larceny:make-included-begin-form)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-dfff24c4615a960f1f49c8fb257e49fb 8
+'#(#f #( #f ("sch" "scm" "ss" "larceny.scm") #*include-suffixes-source* *include-suffixes-source*)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-dfff24c4615a960f1f49c8fb257e49fb 9
+'#(#f #( #f #f #( ((0 . #(larceny:include-ci-file #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (filename))) (142 . #(larceny:include-ci-file #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (filename)))) #case-sensitive? #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #larceny:include-file)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #parameter? no-conversion)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #parameter? no-conversion)
+ #dynamic-wind)
+ #larceny:include-ci-file larceny:include-ci-file)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-dfff24c4615a960f1f49c8fb257e49fb 10
+'#(#f #( #f #f #( #(larceny:include-library-declarations-file #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (filename)) #larceny:include-file)
+ #larceny:include-library-declarations-file larceny:include-library-declarations-file)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-dfff24c4615a960f1f49c8fb257e49fb 11
+'#(#f #( #f #f #( ((0 . #(larceny:include-file #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (filename))) (142 . #(larceny:include-file #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (filename)))) #current-require-path #f #( ((0 . #(#f #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (return))) (1336 . #(loop #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (|.y1\|158\|159|)))) #f #( #(try-path #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (path)) "Trying " #display "/" #newline #current-require-path #current-require-path-suffix-optional #current-require-path-suffixes #*include-suffixes-source* #current-require-path-suffixes-compiled #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #parameter? no-conversion)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #current-library-resolver)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #parameter? no-conversion)
+ #dynamic-wind)
+ #file-exists?)
+ #call-with-current-continuation #larceny:directory-of #larceny:file-name-only #larceny:include-file-forms #larceny:make-included-begin-form include "file not found" #assertion-violation)
+ #larceny:include-file larceny:include-file)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-dfff24c4615a960f1f49c8fb257e49fb 12
+'#(#f #( #f #f #( ((0 . #(larceny:include-file-forms #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (filename))) (142 . #(larceny:include-file-forms #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (filename)))) #f #( ((0 . #(#f #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (p))) (206 . #(loop #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (forms)))) #read #reverse)
+ #call-with-input-file)
+ #larceny:include-file-forms larceny:include-file-forms)
+ #f)
+))

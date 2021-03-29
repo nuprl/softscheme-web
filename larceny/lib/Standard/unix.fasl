@@ -1,0 +1,47 @@
+#!fasl
+(define .petit-bootstrap-id-d05e4f98fb6a1a548c0e84dd6e0be137 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/Standard/unix.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-d05e4f98fb6a1a548c0e84dd6e0be137 0
+'#(#f #( #f std-ffi #require)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-d05e4f98fb6a1a548c0e84dd6e0be137 1
+'#(#f #( #f string #require)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-d05e4f98fb6a1a548c0e84dd6e0be137 2
+'#(#f #( #f "Experimental/unix" #require)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-d05e4f98fb6a1a548c0e84dd6e0be137 3
+'#(#f #( #f "Standard/unix-descriptor" #require)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-d05e4f98fb6a1a548c0e84dd6e0be137 4
+'#(#f #( #f #f #( ((0 . #(directory-name? #f 1 #f #f (path))) (140 . #(directory-name? #f 1 #f #f (path)))) #unix/make-stat_t #unix/stat #stat_t-mode-ref #unix/S_IFDIR #logand)
+ #directory-name? directory-name?)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-d05e4f98fb6a1a548c0e84dd6e0be137 5
+'#(#f #( #f #f #( ((0 . #(with-working-directory #f 2 #f #f (dir thunk))) (140 . #(with-working-directory #f 2 #f #f (dir thunk)))) #current-directory #f #( #(#f #f 0 #f #f ()) #parameter? no-conversion)
+ #f #( #(#f #f 0 #f #f ()))
+ #f #( #(#f #f 0 #f #f ()) #parameter? no-conversion)
+ #dynamic-wind)
+ #with-working-directory with-working-directory)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-d05e4f98fb6a1a548c0e84dd6e0be137 6
+'#(#f #( #f "tmpnam" (string) string #foreign-procedure #f #( #(#f #f 0 #f #f ()) #f #( #(#f #f 0 #f #f ()))
+ #call-without-interrupts)
+ #temporary-file-name temporary-file-name)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-d05e4f98fb6a1a548c0e84dd6e0be137 7
+'#(#f #( #f #f #( ((0 . #(process #f 1 #f #f (command))) (140 . #(process #f 1 #f #f (command)))) #f #( #(#f #f 3 #f #f (|.x\|6| |.x\|7| |.x\|8|)) #f #( #(#f #f 0 #f #f ()) #unix/pipe)
+ #f #( #(#f #f 3 #f #f (|.x\|15| |.x\|16| |.x\|17|)) #unix/fork "Failed to fork a subprocess." #error #unix/close #unix/dup2 "/bin/sh" "sh" "-c" #unix/execl #unix/exit #open-input-descriptor #open-output-descriptor)
+ #call-with-values)
+ #f #( #(#f #f 0 #f #f ()) #unix/pipe)
+ #call-with-values)
+ #process process)
+ #f)
+))

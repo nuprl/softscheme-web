@@ -1,0 +1,17 @@
+#!fasl
+(define .petit-bootstrap-id-49b031aaa25d2eba93096d9f3060630c (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/SRFI/srfi/%3a87.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-49b031aaa25d2eba93096d9f3060630c 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ (srfi :87 case) ((case macro |\x0;case~1pxGHH~435| (0) #f (core derived))) (((scheme base) 0)) (|\x0;build~1pxGHH~4481|) |\x0;build~1pxGHH~79023| #ex:make-library #ex:register-library! #values)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-49b031aaa25d2eba93096d9f3060630c 1
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ (srfi :87) ((case macro |\x0;case~1pxGHH~435| (0) #f (core derived))) (((srfi :87 case) 0)) (|\x0;build~1pxGHH~79023|) |\x0;build~1pxGHH~79024| #ex:make-library #ex:register-library! #values)
+ #f)
+))

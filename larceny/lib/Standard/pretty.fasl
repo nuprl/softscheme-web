@@ -1,0 +1,3 @@
+#!fasl
+(define .petit-bootstrap-id-fa5b448d45c97ac74be9d20e2252ff5a (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/Standard/pretty.so"))
+

@@ -1,0 +1,19 @@
+#!fasl
+(define .petit-bootstrap-id-9364bbf884f7b59b7336f56d38126090 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/SRFI/srfi/98.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-9364bbf884f7b59b7336f56d38126090 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ #values #apply)
+ (srfi 98 os-environment-variables) ((get-environment-variable variable |\x0;get-environment-variable~1pxGHH~7230| (0) #f (scheme process-context)) (get-environment-variables variable get-environment-variables (0) #f (larceny PRIMITIVES))) (((scheme process-context) 0)) (|\x0;build~1pxGHH~7231|) |\x0;build~1pxGHH~79385| #ex:make-library #ex:register-library! #values)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-9364bbf884f7b59b7336f56d38126090 1
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ #values #apply)
+ (srfi 98) ((get-environment-variable variable |\x0;get-environment-variable~1pxGHH~7230| (0) #f (scheme process-context)) (get-environment-variables variable get-environment-variables (0) #f (larceny PRIMITIVES))) (((srfi 98 os-environment-variables) 0)) (|\x0;build~1pxGHH~79385|) |\x0;build~1pxGHH~79386| #ex:make-library #ex:register-library! #values)
+ #f)
+))

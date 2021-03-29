@@ -1,0 +1,17 @@
+#!fasl
+(define .petit-bootstrap-id-392ed05721d636ac90fa7deec8319c4e (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/SRFI/srfi/71.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-392ed05721d636ac90fa7deec8319c4e 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ (srfi 71 let) ((let macro |\x0;let~1pxGHH~78095| (0) #f (srfi :71 let)) (let* macro |\x0;let*~1pxGHH~78130| (0) #f (srfi :71 let)) (letrec macro |\x0;letrec~1pxGHH~78149| (0) #f (srfi :71 let)) (uncons variable |\x0;uncons~1pxGHH~78058| (0) #f (srfi :71 let)) (uncons-2 variable |\x0;uncons-2~1pxGHH~78059| (0) #f (srfi :71 let)) (uncons-3 variable |\x0;uncons-3~1pxGHH~78060| (0) #f (srfi :71 let)) (uncons-4 variable |\x0;uncons-4~1pxGHH~78061| (0) #f (srfi :71 let)) (uncons-cons variable |\x0;uncons-cons~1pxGHH~78062| (0) #f (srfi :71 let)) (unlist variable |\x0;unlist~1pxGHH~78063| (0) #f (srfi :71 let)) (unvector variable |\x0;unvector~1pxGHH~78064| (0) #f (srfi :71 let)) (values->list macro |\x0;values->list~1pxGHH~78065| (0) #f (srfi :71 let)) (values->vector macro |\x0;values->vector~1pxGHH~78080| (0) #f (srfi :71 let))) (((srfi :71 let) 0)) (|\x0;build~1pxGHH~78183|) |\x0;build~1pxGHH~78191| #ex:make-library #ex:register-library! #values)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-392ed05721d636ac90fa7deec8319c4e 1
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ (srfi 71) ((let macro |\x0;let~1pxGHH~78095| (0) #f (srfi :71 let)) (let* macro |\x0;let*~1pxGHH~78130| (0) #f (srfi :71 let)) (letrec macro |\x0;letrec~1pxGHH~78149| (0) #f (srfi :71 let)) (uncons variable |\x0;uncons~1pxGHH~78058| (0) #f (srfi :71 let)) (uncons-2 variable |\x0;uncons-2~1pxGHH~78059| (0) #f (srfi :71 let)) (uncons-3 variable |\x0;uncons-3~1pxGHH~78060| (0) #f (srfi :71 let)) (uncons-4 variable |\x0;uncons-4~1pxGHH~78061| (0) #f (srfi :71 let)) (uncons-cons variable |\x0;uncons-cons~1pxGHH~78062| (0) #f (srfi :71 let)) (unlist variable |\x0;unlist~1pxGHH~78063| (0) #f (srfi :71 let)) (unvector variable |\x0;unvector~1pxGHH~78064| (0) #f (srfi :71 let)) (values->list macro |\x0;values->list~1pxGHH~78065| (0) #f (srfi :71 let)) (values->vector macro |\x0;values->vector~1pxGHH~78080| (0) #f (srfi :71 let))) (((srfi 71 let) 0)) (|\x0;build~1pxGHH~78191|) |\x0;build~1pxGHH~78192| #ex:make-library #ex:register-library! #values)
+ #f)
+))

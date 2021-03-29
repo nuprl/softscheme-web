@@ -1,0 +1,9 @@
+#!fasl
+(define .petit-bootstrap-id-e60c8c9df0bfd18396ca673e4b6c5eef (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/Standard/sharp-dot.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-e60c8c9df0bfd18396ca673e4b6c5eef 0
+'#(#f #( #f #f #( ((2093 . #(read-evaluation-prefix #f 1 #f #f (p)))) #readtable-ref #f #( #(new-sharp-dispatch #f 2 #f #f (c p)) #io/get-char #readtable-ref #eval)
+ #readtable-set! sharp-dot #io/get-char "EOF found following #." #error)
+)
+ #f)
+))

@@ -1,0 +1,19 @@
+#!fasl
+(define .petit-bootstrap-id-f4526d0fcfa0705a4e15b5781e8f3d42 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/SRFI/srfi/66.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-f4526d0fcfa0705a4e15b5781e8f3d42 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ #values #apply)
+ (srfi 66 octet-vectors) ((u8vector? variable u8vector? (0) #f (larceny PRIMITIVES)) (make-u8vector variable make-u8vector (0) #f (larceny PRIMITIVES)) (u8vector variable u8vector (0) #f (larceny PRIMITIVES)) (u8vector->list variable u8vector->list (0) #f (larceny PRIMITIVES)) (list->u8vector variable list->u8vector (0) #f (larceny PRIMITIVES)) (u8vector-length variable u8vector-length (0) #f (larceny PRIMITIVES)) (u8vector-ref variable u8vector-ref (0) #f (larceny PRIMITIVES)) (u8vector-set! variable u8vector-set! (0) #f (larceny PRIMITIVES)) (u8vector=? variable u8vector=? (0) #f (larceny PRIMITIVES)) (u8vector-compare variable u8vector-compare (0) #f (larceny PRIMITIVES)) (u8vector-copy! variable u8vector-copy! (0) #f (larceny PRIMITIVES)) (u8vector-copy variable u8vector-copy (0) #f (larceny PRIMITIVES))) (((srfi :66 octet-vectors) 0)) (|\x0;build~1pxGHH~71688|) |\x0;build~1pxGHH~71696| #ex:make-library #ex:register-library! #values)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-f4526d0fcfa0705a4e15b5781e8f3d42 1
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ #values #apply)
+ (srfi 66) ((u8vector? variable u8vector? (0) #f (larceny PRIMITIVES)) (make-u8vector variable make-u8vector (0) #f (larceny PRIMITIVES)) (u8vector variable u8vector (0) #f (larceny PRIMITIVES)) (u8vector->list variable u8vector->list (0) #f (larceny PRIMITIVES)) (list->u8vector variable list->u8vector (0) #f (larceny PRIMITIVES)) (u8vector-length variable u8vector-length (0) #f (larceny PRIMITIVES)) (u8vector-ref variable u8vector-ref (0) #f (larceny PRIMITIVES)) (u8vector-set! variable u8vector-set! (0) #f (larceny PRIMITIVES)) (u8vector=? variable u8vector=? (0) #f (larceny PRIMITIVES)) (u8vector-compare variable u8vector-compare (0) #f (larceny PRIMITIVES)) (u8vector-copy! variable u8vector-copy! (0) #f (larceny PRIMITIVES)) (u8vector-copy variable u8vector-copy (0) #f (larceny PRIMITIVES))) (((srfi 66 octet-vectors) 0)) (|\x0;build~1pxGHH~71696|) |\x0;build~1pxGHH~71697| #ex:make-library #ex:register-library! #values)
+ #f)
+))

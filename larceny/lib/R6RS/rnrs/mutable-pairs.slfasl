@@ -1,0 +1,11 @@
+#!fasl
+(define .petit-bootstrap-id-b54d66731fef6361e700bc982e300572 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/R6RS/rnrs/mutable-pairs.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-b54d66731fef6361e700bc982e300572 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #values #apply)
+ (rnrs mutable-pairs) ((set-car! variable set-car! (0) #f (larceny PRIMITIVES)) (set-cdr! variable set-cdr! (0) #f (larceny PRIMITIVES))) |\x0;build~1pxGHH~2319| #ex:make-library #ex:register-library! #values)
+ #f)
+))

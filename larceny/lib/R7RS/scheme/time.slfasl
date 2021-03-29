@@ -1,0 +1,17 @@
+#!fasl
+(define .petit-bootstrap-id-ae967ceb7d153aebeca2d496db463d52 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/R7RS/scheme/time.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-ae967ceb7d153aebeca2d496db463d52 0
+'#(#f #( #f #ex:unspecified #|\x0;current-utc-time-continuation-microseconds~1pxGHH~9056| #|\x0;current-jiffy~1pxGHH~9055| #|\x0;arbitrary-baseline~1pxGHH~9054| #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #ex:undefined #|\x0;current-utc-time-continuation-microseconds~1pxGHH~9056| #|\x0;current-jiffy~1pxGHH~9055| #|\x0;arbitrary-baseline~1pxGHH~9054| #f #( #(#f #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (t0f0010)) #|\x0;current-jiffy~1pxGHH~9055| #values)
+ #|\x0;larceny:current-utc-time~1pxGHH~3653| #f #( #(#f #f 2 src/Build/compile-standard-libraries.sch #(20 1 0) (|\x0;secs~1pxGHH~9084| |\x0;usecs~1pxGHH~9085|)))
+ #call-with-values #|\x0;jiffies-per-second~1pxGHH~3654| #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #current-seconds)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #|\x0;larceny:current-utc-time~1pxGHH~3653| #call-with-values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #|\x0;larceny:current-utc-time~1pxGHH~3653| #f #( #(#f #f 2 src/Build/compile-standard-libraries.sch #(20 1 0) (|\x0;secs~1pxGHH~9078| |\x0;usecs~1pxGHH~9079|)) #|\x0;jiffies-per-second~1pxGHH~3654|)
+ #call-with-values)
+ #f #( #(|\x0;current-utc-time-continuation-microseconds~1pxGHH~9056| #f 2 src/Build/compile-standard-libraries.sch #(20 1 0) (|\x0;secs~1pxGHH~9058| |\x0;usecs~1pxGHH~9059|)))
+ #values #apply)
+ (scheme time) ((current-second variable current-second (0) #f (larceny PRIMITIVES)) (current-jiffy variable |\x0;current-jiffy~1pxGHH~9055| (0) #f (scheme time)) (jiffies-per-second variable |\x0;jiffies-per-second~1pxGHH~3654| (0) #f (larceny r7rs primitives patches))) (((larceny r7rs primitives lowlevel) 0) ((larceny r7rs primitives) 0) ((scheme base) 0)) (|\x0;build~1pxGHH~3686| |\x0;build~1pxGHH~3692| |\x0;build~1pxGHH~4481|) |\x0;build~1pxGHH~9086| #ex:make-library #ex:register-library! #values)
+ #f)
+))

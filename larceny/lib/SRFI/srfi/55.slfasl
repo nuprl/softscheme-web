@@ -1,0 +1,10 @@
+#!fasl
+(define .petit-bootstrap-id-faacb46ea1ab4a45d4864dfef88e0d0a (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/SRFI/srfi/55.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-faacb46ea1ab4a45d4864dfef88e0d0a 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ (srfi 55) ((require-extension macro |\x0;require-extension~1pxGHH~69431| (0) #f (srfi :55))) (((srfi :55) 0)) (|\x0;build~1pxGHH~69462|) |\x0;build~1pxGHH~69467| #ex:make-library #ex:register-library! #values)
+ #f)
+))

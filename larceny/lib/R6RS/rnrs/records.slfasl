@@ -1,0 +1,19 @@
+#!fasl
+(define .petit-bootstrap-id-e40f77ab7edf9ac33edf79c97e0ee241 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/R6RS/rnrs/records.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-e40f77ab7edf9ac33edf79c97e0ee241 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #values #apply)
+ (rnrs records procedural) ((make-record-type-descriptor variable make-record-type-descriptor (0) #f (larceny PRIMITIVES)) (record-type-descriptor? variable record-type-descriptor? (0) #f (larceny PRIMITIVES)) (make-record-constructor-descriptor variable make-record-constructor-descriptor (0) #f (larceny PRIMITIVES)) (record-constructor variable record-constructor (0) #f (larceny PRIMITIVES)) (record-predicate variable record-predicate (0) #f (larceny PRIMITIVES)) (record-accessor variable record-accessor (0) #f (larceny PRIMITIVES)) (record-mutator variable record-mutator (0) #f (larceny PRIMITIVES))) |\x0;build~1pxGHH~2326| #ex:make-library #ex:register-library! #values)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-e40f77ab7edf9ac33edf79c97e0ee241 1
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #values #apply)
+ (rnrs records inspection) ((record? variable record? (0) #f (larceny PRIMITIVES)) (record-rtd variable record-rtd (0) #f (larceny PRIMITIVES)) (record-type-name variable record-type-name (0) #f (larceny PRIMITIVES)) (record-type-parent variable record-type-parent (0) #f (larceny PRIMITIVES)) (record-type-uid variable record-type-uid (0) #f (larceny PRIMITIVES)) (record-type-generative? variable record-type-generative? (0) #f (larceny PRIMITIVES)) (record-type-sealed? variable record-type-sealed? (0) #f (larceny PRIMITIVES)) (record-type-opaque? variable record-type-opaque? (0) #f (larceny PRIMITIVES)) (record-type-field-names variable record-type-field-names (0) #f (larceny PRIMITIVES)) (record-field-mutable? variable record-field-mutable? (0) #f (larceny PRIMITIVES))) |\x0;build~1pxGHH~2327| #ex:make-library #ex:register-library! #values)
+ #f)
+))

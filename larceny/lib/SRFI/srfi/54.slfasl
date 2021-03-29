@@ -1,0 +1,19 @@
+#!fasl
+(define .petit-bootstrap-id-2201a362c01488ad229c378c3a0b2aed (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/SRFI/srfi/54.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-2201a362c01488ad229c378c3a0b2aed 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #values #apply)
+ (srfi 54 cat) ((cat variable |\x0;cat~1pxGHH~67928| (0) #f (srfi :54 cat))) (((srfi :54 cat) 0)) (|\x0;build~1pxGHH~69413|) |\x0;build~1pxGHH~69421| #ex:make-library #ex:register-library! #values)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-2201a362c01488ad229c378c3a0b2aed 1
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #values #apply)
+ (srfi 54) ((cat variable |\x0;cat~1pxGHH~67928| (0) #f (srfi :54 cat))) (((srfi 54 cat) 0)) (|\x0;build~1pxGHH~69421|) |\x0;build~1pxGHH~69422| #ex:make-library #ex:register-library! #values)
+ #f)
+))

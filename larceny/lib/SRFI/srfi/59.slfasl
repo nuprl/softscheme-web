@@ -1,0 +1,19 @@
+#!fasl
+(define .petit-bootstrap-id-6fae5761f3c1bd1145667a3a0a7688c8 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/SRFI/srfi/59.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-6fae5761f3c1bd1145667a3a0a7688c8 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ #values #apply)
+ (srfi 59 vicinities) ((program-vicinity variable program-vicinity (0) #f (larceny PRIMITIVES)) (library-vicinity variable library-vicinity (0) #f (larceny PRIMITIVES)) (implementation-vicinity variable implementation-vicinity (0) #f (larceny PRIMITIVES)) (user-vicinity variable user-vicinity (0) #f (larceny PRIMITIVES)) (home-vicinity variable home-vicinity (0) #f (larceny PRIMITIVES)) (in-vicinity variable in-vicinity (0) #f (larceny PRIMITIVES)) (sub-vicinity variable sub-vicinity (0) #f (larceny PRIMITIVES)) (make-vicinity variable make-vicinity (0) #f (larceny PRIMITIVES)) (pathname->vicinity variable pathname->vicinity (0) #f (larceny PRIMITIVES)) (vicinity:suffix? variable vicinity:suffix? (0) #f (larceny PRIMITIVES))) (((srfi :59 vicinities) 0)) (|\x0;build~1pxGHH~69475|) |\x0;build~1pxGHH~69483| #ex:make-library #ex:register-library! #values)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-6fae5761f3c1bd1145667a3a0a7688c8 1
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ #values #apply)
+ (srfi 59) ((program-vicinity variable program-vicinity (0) #f (larceny PRIMITIVES)) (library-vicinity variable library-vicinity (0) #f (larceny PRIMITIVES)) (implementation-vicinity variable implementation-vicinity (0) #f (larceny PRIMITIVES)) (user-vicinity variable user-vicinity (0) #f (larceny PRIMITIVES)) (home-vicinity variable home-vicinity (0) #f (larceny PRIMITIVES)) (in-vicinity variable in-vicinity (0) #f (larceny PRIMITIVES)) (sub-vicinity variable sub-vicinity (0) #f (larceny PRIMITIVES)) (make-vicinity variable make-vicinity (0) #f (larceny PRIMITIVES)) (pathname->vicinity variable pathname->vicinity (0) #f (larceny PRIMITIVES)) (vicinity:suffix? variable vicinity:suffix? (0) #f (larceny PRIMITIVES))) (((srfi 59 vicinities) 0)) (|\x0;build~1pxGHH~69483|) |\x0;build~1pxGHH~69484| #ex:make-library #ex:register-library! #values)
+ #f)
+))

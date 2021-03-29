@@ -1,0 +1,10 @@
+#!fasl
+(define .petit-bootstrap-id-aabac5a164b4fdac5a50ae454834b041 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/Standard/exec-comment.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-aabac5a164b4fdac5a50ae454834b041 0
+'#(#f #( #f #f #( ((3439 . #(loop #f 1 #f #f (c))) (9187 . #(read-comment #f 1 #f #f (p)))) #readtable-ref #f #( #(new-sharp-dispatch #f 2 #f #f (c p)))
+ #f #( #(new-sharp-dispatch-list #f 2 #f #f (c p)))
+ #readtable-set! sharp-bang-comments "EOF in #!...!# comment." #error #io/get-char #port-position #char-alphabetic? #read unspecified undefined null true false "Unknown #! constant: ")
+)
+ #f)
+))

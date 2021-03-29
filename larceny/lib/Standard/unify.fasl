@@ -1,0 +1,11 @@
+#!fasl
+(define .petit-bootstrap-id-f26f63c167e31c76d8372291e89e9ba0 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/Standard/unify.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-f26f63c167e31c76d8372291e89e9ba0 0
+'#(#f #( #f #f #( ((0 . #(make-unifier #f 3 #f #f (variable? variable=? perform-occurs-check?))) (188 . #(loop #f 1 #f #f (i))) (3111 . #(loop #f 1 #f #f (|.y1\|217\|218|))) (4087 . #(loop #f 1 #f #f (i))) (5444 . #(loop #f 2 #f #f (|.y1\|571\|572| |.results\|571\|575|))) (6772 . #(fetch #f 2 #f #f (store loc))) (7376 . #(store! #f 3 #f #f (store loc val))) (8371 . #(new-loc! #f 1 #f #f (store))) (8872 . #(map-bindings #f 2 #f #f (proc env))) (9107 . #(lookup-binding #f 2 #f #f (v e))) (10413 . #(lookup #f 2 #f #f (env name))) (11207 . #(bind! #f 3 #f #f (env name loc))) (12195 . #(constant-value #f 1 #f #f (x))) (13144 . #(structure? #f 1 #f #f (x))) (14317 . #(find-var #f 3 #f #f (v env store))) (15871 . #(undefined? #f 1 #f #f (x))) (16238 . #(occurs? #f 2 #f #f (var struct))) (18590 . #(unify-const-and-var #f 4 #f #f (const var env store))) (20621 . #(unify-struct-and-var #f 4 #f #f (struct var env store))) (23419 . #(unify-variables #f 4 #f #f (a b env store))) (28955 . #(unify-structures #f 4 #f #f (a b env store))) (32055 . #(unify0 #f 4 #f #f (a b env store))) (38835 . #(unify #f 2 #f #f (a b))) (40083 . #(make-unifier #f 3 #f #f (variable? variable=? perform-occurs-check?)))) #reverse #assv quote #??? #equal? #append #f #( #(#f #f 2 #f #f (name loc)))
+ undefined #f #( #(#f #f 2 #f #f (a b)))
+ #f #( #(#f #f 1 #f #f (x)))
+ #values)
+ #make-unifier make-unifier)
+ #f)
+))

@@ -1,0 +1,74 @@
+#!fasl
+(define .petit-bootstrap-id-bacbf5e3586e6700610d2e3244ee5882 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/Standard/tasking-with-io.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-bacbf5e3586e6700610d2e3244ee5882 0
+'#(#f #( #f list #require)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-bacbf5e3586e6700610d2e3244ee5882 1
+'#(#f #( #f tasking #require)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-bacbf5e3586e6700610d2e3244ee5882 2
+'#(#f #( #f poll #require)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-bacbf5e3586e6700610d2e3244ee5882 3
+'#(#f #( #f nonblocking-console #require)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-bacbf5e3586e6700610d2e3244ee5882 4
+'#(#f #( #f #*blocked-on-input* *blocked-on-input*)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-bacbf5e3586e6700610d2e3244ee5882 5
+'#(#f #( #f #*blocked-on-output* *blocked-on-output*)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-bacbf5e3586e6700610d2e3244ee5882 6
+'#(#f #( #f #with-tasking #f #( #(#f #f 1 #f #f (thunk)) #console-input-port-factory #nonblocking-console-input-port #console-output-port-factory #nonblocking-console-output-port #f #( #(#f #f 0 #f #f ()) #current-input-port #console-input-port-factory #current-output-port #console-output-port-factory #f #( #(#f #f 0 #f #f ()) #parameter? no-conversion)
+ #f #( #(#f #f 0 #f #f ()))
+ #f #( #(#f #f 0 #f #f ()) #parameter? no-conversion)
+ #dynamic-wind)
+ #f #( #(#f #f 0 #f #f ()) #parameter? no-conversion)
+ #f #( #(#f #f 0 #f #f ()) #parameter? no-conversion)
+ #dynamic-wind)
+ with-tasking)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-bacbf5e3586e6700610d2e3244ee5882 7
+'#(#f #( #f #f #( ((0 . #(input-not-ready-handler #f 1 #f #f (desc))) (140 . #(input-not-ready-handler #f 1 #f #f (desc)))) #current-task #*blocked-on-input* #block)
+ #input-not-ready-handler input-not-ready-handler)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-bacbf5e3586e6700610d2e3244ee5882 8
+'#(#f #( #f #f #( ((0 . #(output-not-ready-handler #f 1 #f #f (desc))) (140 . #(output-not-ready-handler #f 1 #f #f (desc)))) #current-task #*blocked-on-output* #block)
+ #output-not-ready-handler output-not-ready-handler)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-bacbf5e3586e6700610d2e3244ee5882 9
+'#(#f #( #f #f #( #(idle-handler #f 0 #f #f ()) #*blocked-on-input* #*blocked-on-output* #newline "; The run queue is empty and no tasks are blocked on I/O" #display "; Ending tasking" #end-tasking #tasks/poll-for-io)
+ #idle-handler idle-handler)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-bacbf5e3586e6700610d2e3244ee5882 10
+'#(#f #( #f #f #( #(poll-handler #f 0 #f #f ()) #tasks/poll-for-io)
+ #poll-handler poll-handler)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-bacbf5e3586e6700610d2e3244ee5882 11
+'#(#f #( #f #f #( #(task-state-changed-handler #f 1 #f #f (t)) #task-state (runnable running dead) #memv #tasks/remove-from-ioblock-if-blocked)
+ #task-state-changed-handler task-state-changed-handler)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-bacbf5e3586e6700610d2e3244ee5882 12
+'#(#f #( #f #f #( ((0 . #(tasks/poll-for-io #f 1 #f #f (block-system?))) (191 . #(loop #f 1 #f #f (ready))) (3709 . #(loop #f 2 #f #f (|.y1\|122\|123| |.results\|122\|126|))) (4513 . #(loop #f 2 #f #f (|.y1\|75\|76| |.results\|75\|79|))) (5317 . #(tasks/poll-for-io #f 1 #f #f (block-system?)))) #*blocked-on-input* #assq #remq! #unblock #*blocked-on-output* "I/O signalled ready on unblocked task" #error #reverse #poll-descriptors)
+ #tasks/poll-for-io tasks/poll-for-io)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-bacbf5e3586e6700610d2e3244ee5882 13
+'#(#f #( #f #f #( ((0 . #(tasks/remove-from-ioblock-if-blocked #f 1 #f #f (task))) (142 . #(tasks/remove-from-ioblock-if-blocked #f 1 #f #f (task)))) #*blocked-on-input* #reverse-assq #remq! #*blocked-on-output* #f #( #(#f #f 1 #f #f (x)) #*blocked-on-output* #remq!)
+)
+ #tasks/remove-from-ioblock-if-blocked tasks/remove-from-ioblock-if-blocked)
+ #f)
+))

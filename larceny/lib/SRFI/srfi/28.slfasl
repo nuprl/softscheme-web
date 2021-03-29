@@ -1,0 +1,27 @@
+#!fasl
+(define .petit-bootstrap-id-8fde3b7a7592fdc67de6816c4add0ba5 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/SRFI/srfi/28.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-8fde3b7a7592fdc67de6816c4add0ba5 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #values #apply)
+ (srfi 28 basic-format-strings larceny) ((larceny:format variable |\x0;larceny:format~1pxGHH~55503| (0) #f (srfi :28 basic-format-strings larceny))) (((srfi :28 basic-format-strings larceny) 0)) (|\x0;build~1pxGHH~55504|) |\x0;build~1pxGHH~55523| #ex:make-library #ex:register-library! #values)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-8fde3b7a7592fdc67de6816c4add0ba5 1
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #values #apply)
+ (srfi 28 basic-format-strings) ((format variable |\x0;format~1pxGHH~55505| (0) #f (srfi :28 basic-format-strings))) (((srfi :28 basic-format-strings) 0)) (|\x0;build~1pxGHH~55513|) |\x0;build~1pxGHH~55524| #ex:make-library #ex:register-library! #values)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-8fde3b7a7592fdc67de6816c4add0ba5 2
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #values #apply)
+ (srfi 28) ((format variable |\x0;format~1pxGHH~55505| (0) #f (srfi :28 basic-format-strings))) (((srfi 28 basic-format-strings) 0)) (|\x0;build~1pxGHH~55524|) |\x0;build~1pxGHH~55525| #ex:make-library #ex:register-library! #values)
+ #f)
+))

@@ -1,0 +1,17 @@
+#!fasl
+(define .petit-bootstrap-id-eaecf08f189d8f96ebe563b517291569 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/SRFI/srfi/51.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-eaecf08f189d8f96ebe563b517291569 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ (srfi 51 rest-values) ((rest-values variable |\x0;rest-values~1pxGHH~67134| (0) #f (srfi :51 rest-values)) (arg-and macro |\x0;arg-and~1pxGHH~67135| (0) #f (srfi :51 rest-values)) (arg-ands macro |\x0;arg-ands~1pxGHH~67219| (0) #f (srfi :51 rest-values)) (err-and macro |\x0;err-and~1pxGHH~67373| (0) #f (srfi :51 rest-values)) (err-ands macro |\x0;err-ands~1pxGHH~67389| (0) #f (srfi :51 rest-values)) (arg-or macro |\x0;arg-or~1pxGHH~67254| (0) #f (srfi :51 rest-values)) (arg-ors macro |\x0;arg-ors~1pxGHH~67338| (0) #f (srfi :51 rest-values)) (err-or macro |\x0;err-or~1pxGHH~67407| (0) #f (srfi :51 rest-values)) (err-ors macro |\x0;err-ors~1pxGHH~67423| (0) #f (srfi :51 rest-values))) (((srfi :51 rest-values) 0)) (|\x0;build~1pxGHH~67649|) |\x0;build~1pxGHH~67657| #ex:make-library #ex:register-library! #values)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-eaecf08f189d8f96ebe563b517291569 1
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ (srfi 51) ((rest-values variable |\x0;rest-values~1pxGHH~67134| (0) #f (srfi :51 rest-values)) (arg-and macro |\x0;arg-and~1pxGHH~67135| (0) #f (srfi :51 rest-values)) (arg-ands macro |\x0;arg-ands~1pxGHH~67219| (0) #f (srfi :51 rest-values)) (err-and macro |\x0;err-and~1pxGHH~67373| (0) #f (srfi :51 rest-values)) (err-ands macro |\x0;err-ands~1pxGHH~67389| (0) #f (srfi :51 rest-values)) (arg-or macro |\x0;arg-or~1pxGHH~67254| (0) #f (srfi :51 rest-values)) (arg-ors macro |\x0;arg-ors~1pxGHH~67338| (0) #f (srfi :51 rest-values)) (err-or macro |\x0;err-or~1pxGHH~67407| (0) #f (srfi :51 rest-values)) (err-ors macro |\x0;err-ors~1pxGHH~67423| (0) #f (srfi :51 rest-values))) (((srfi 51 rest-values) 0)) (|\x0;build~1pxGHH~67657|) |\x0;build~1pxGHH~67658| #ex:make-library #ex:register-library! #values)
+ #f)
+))

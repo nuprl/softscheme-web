@@ -1,0 +1,11 @@
+#!fasl
+(define .petit-bootstrap-id-f2f720a47234157d668240422b510f98 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/R7RS/scheme/read.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-f2f720a47234157d668240422b510f98 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #values #apply)
+ (scheme read) ((read variable read (0) #f (larceny PRIMITIVES))) (((rnrs io simple) 0)) (|\x0;build~1pxGHH~1534|) |\x0;build~1pxGHH~4935| #ex:make-library #ex:register-library! #values)
+ #f)
+))

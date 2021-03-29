@@ -1,0 +1,10 @@
+#!fasl
+(define .petit-bootstrap-id-94d8af6e27bda3873bf30e18496475e3 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/R7RS/scheme/case-lambda.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-94d8af6e27bda3873bf30e18496475e3 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ (scheme case-lambda) ((case-lambda macro |\x0;case-lambda~1pxGHH~3944| (0) #f (rnrs control))) (((rnrs control) 0)) (|\x0;build~1pxGHH~4373|) |\x0;build~1pxGHH~7216| #ex:make-library #ex:register-library! #values)
+ #f)
+))

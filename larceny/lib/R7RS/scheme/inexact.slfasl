@@ -1,0 +1,11 @@
+#!fasl
+(define .petit-bootstrap-id-3884b7f96b4d3d34603e4cea7b31a2a6 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/R7RS/scheme/inexact.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-3884b7f96b4d3d34603e4cea7b31a2a6 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #values #apply)
+ (scheme inexact) ((acos variable acos (0) #f (larceny PRIMITIVES)) (asin variable asin (0) #f (larceny PRIMITIVES)) (atan variable atan (0) #f (larceny PRIMITIVES)) (cos variable cos (0) #f (larceny PRIMITIVES)) (exp variable exp (0) #f (larceny PRIMITIVES)) (finite? variable finite? (0) #f (larceny PRIMITIVES)) (infinite? variable infinite? (0) #f (larceny PRIMITIVES)) (log variable log (0) #f (larceny PRIMITIVES)) (nan? variable nan? (0) #f (larceny PRIMITIVES)) (sin variable sin (0) #f (larceny PRIMITIVES)) (sqrt variable sqrt (0) #f (larceny PRIMITIVES)) (tan variable tan (0) #f (larceny PRIMITIVES))) (((rnrs base) 0)) (|\x0;build~1pxGHH~1533|) |\x0;build~1pxGHH~4499| #ex:make-library #ex:register-library! #values)
+ #f)
+))

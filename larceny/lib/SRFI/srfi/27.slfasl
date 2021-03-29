@@ -1,0 +1,19 @@
+#!fasl
+(define .petit-bootstrap-id-f79b91cd6652b45443c0dd57fefa34cc (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/SRFI/srfi/27.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-f79b91cd6652b45443c0dd57fefa34cc 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #values #apply)
+ (srfi 27 random-bits) ((random-integer variable |\x0;random-integer~1pxGHH~7327| (0) #f (srfi :27 random-bits)) (random-real variable |\x0;random-real~1pxGHH~7328| (0) #f (srfi :27 random-bits)) (default-random-source variable |\x0;default-random-source~1pxGHH~7326| (0) #f (srfi :27 random-bits)) (make-random-source variable |\x0;make-random-source~1pxGHH~7318| (0) #f (srfi :27 random-bits)) (random-source? variable |\x0;random-source?~1pxGHH~7319| (0) #f (srfi :27 random-bits)) (random-source-state-ref variable |\x0;random-source-state-ref~1pxGHH~7320| (0) #f (srfi :27 random-bits)) (random-source-state-set! variable |\x0;random-source-state-set!~1pxGHH~7321| (0) #f (srfi :27 random-bits)) (random-source-randomize! variable |\x0;random-source-randomize!~1pxGHH~7322| (0) #f (srfi :27 random-bits)) (random-source-pseudo-randomize! variable |\x0;random-source-pseudo-randomize!~1pxGHH~7323| (0) #f (srfi :27 random-bits)) (random-source-make-integers variable |\x0;random-source-make-integers~1pxGHH~7324| (0) #f (srfi :27 random-bits)) (random-source-make-reals variable |\x0;random-source-make-reals~1pxGHH~7325| (0) #f (srfi :27 random-bits))) (((srfi :27 random-bits) 0)) (|\x0;build~1pxGHH~7659|) |\x0;build~1pxGHH~7667| #ex:make-library #ex:register-library! #values)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-f79b91cd6652b45443c0dd57fefa34cc 1
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #values #apply)
+ (srfi 27) ((random-integer variable |\x0;random-integer~1pxGHH~7327| (0) #f (srfi :27 random-bits)) (random-real variable |\x0;random-real~1pxGHH~7328| (0) #f (srfi :27 random-bits)) (default-random-source variable |\x0;default-random-source~1pxGHH~7326| (0) #f (srfi :27 random-bits)) (make-random-source variable |\x0;make-random-source~1pxGHH~7318| (0) #f (srfi :27 random-bits)) (random-source? variable |\x0;random-source?~1pxGHH~7319| (0) #f (srfi :27 random-bits)) (random-source-state-ref variable |\x0;random-source-state-ref~1pxGHH~7320| (0) #f (srfi :27 random-bits)) (random-source-state-set! variable |\x0;random-source-state-set!~1pxGHH~7321| (0) #f (srfi :27 random-bits)) (random-source-randomize! variable |\x0;random-source-randomize!~1pxGHH~7322| (0) #f (srfi :27 random-bits)) (random-source-pseudo-randomize! variable |\x0;random-source-pseudo-randomize!~1pxGHH~7323| (0) #f (srfi :27 random-bits)) (random-source-make-integers variable |\x0;random-source-make-integers~1pxGHH~7324| (0) #f (srfi :27 random-bits)) (random-source-make-reals variable |\x0;random-source-make-reals~1pxGHH~7325| (0) #f (srfi :27 random-bits))) (((srfi 27 random-bits) 0)) (|\x0;build~1pxGHH~7667|) |\x0;build~1pxGHH~7668| #ex:make-library #ex:register-library! #values)
+ #f)
+))

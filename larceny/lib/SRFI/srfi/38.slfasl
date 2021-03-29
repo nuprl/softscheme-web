@@ -1,0 +1,19 @@
+#!fasl
+(define .petit-bootstrap-id-eb8ab6ee7178bbef84bd6789bcdee547 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/SRFI/srfi/38.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-eb8ab6ee7178bbef84bd6789bcdee547 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #values #apply)
+ (srfi 38 with-shared-structure) ((write-with-shared-structure variable |\x0;write-with-shared-structure~1pxGHH~56079| (0) #f (srfi :38 with-shared-structure)) (write/ss variable |\x0;write/ss~1pxGHH~56092| (0) #f (srfi :38 with-shared-structure)) (read-with-shared-structure variable |\x0;read-with-shared-structure~1pxGHH~56090| (0) #f (srfi :38 with-shared-structure)) (read/ss variable |\x0;read/ss~1pxGHH~56093| (0) #f (srfi :38 with-shared-structure))) (((srfi :38 with-shared-structure) 0)) (|\x0;build~1pxGHH~61283|) |\x0;build~1pxGHH~61291| #ex:make-library #ex:register-library! #values)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-eb8ab6ee7178bbef84bd6789bcdee547 1
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #values #apply)
+ (srfi 38) ((write-with-shared-structure variable |\x0;write-with-shared-structure~1pxGHH~56079| (0) #f (srfi :38 with-shared-structure)) (write/ss variable |\x0;write/ss~1pxGHH~56092| (0) #f (srfi :38 with-shared-structure)) (read-with-shared-structure variable |\x0;read-with-shared-structure~1pxGHH~56090| (0) #f (srfi :38 with-shared-structure)) (read/ss variable |\x0;read/ss~1pxGHH~56093| (0) #f (srfi :38 with-shared-structure))) (((srfi 38 with-shared-structure) 0)) (|\x0;build~1pxGHH~61291|) |\x0;build~1pxGHH~61292| #ex:make-library #ex:register-library! #values)
+ #f)
+))

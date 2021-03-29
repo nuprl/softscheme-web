@@ -1,0 +1,16 @@
+#!fasl
+(define .petit-bootstrap-id-0a3f29bb5a83d8c54a8e2851dacf8c6b (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/R6RS/larceny/parse-options.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-0a3f29bb5a83d8c54a8e2851dacf8c6b 0
+'#(#f #( #f #ex:unspecified #|\x0;match1~1pxGHH~8887| #|\x0;matcher~1pxGHH~8886| #|\x0;larceny:parse-options~1pxGHH~8885| #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( ((0 . #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ())) (1089 . #(|\x0;match1~1pxGHH~8887| #f 2 src/Build/compile-standard-libraries.sch #(20 1 0) (|\x0;strings~1pxGHH~8889| |\x0;description~1pxGHH~8890|))) (8080 . #(|\x0;matcher~1pxGHH~8886| #f 2 src/Build/compile-standard-libraries.sch #(20 1 0) (|\x0;strings~1pxGHH~8942| |\x0;descriptions~1pxGHH~8943|))) (10212 . #(|\x0;larceny:parse-options~1pxGHH~8885| #f 2 src/Build/compile-standard-libraries.sch #(20 1 0) (|\x0;strings~1pxGHH~8962| |\x0;descriptions~1pxGHH~8963|)))) #ex:undefined #|\x0;match1~1pxGHH~8887| #|\x0;matcher~1pxGHH~8886| #|\x0;larceny:parse-options~1pxGHH~8885| #f #( #(#f #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (t0f0010)) #|\x0;larceny:parse-options~1pxGHH~8885| #values)
+ #values #f #( #(#f #f 2 src/Build/compile-standard-libraries.sch #(20 1 0) (|\x0;strings~1pxGHH~8962| |\x0;descriptions~1pxGHH~8963|)))
+ #apply _ #string=? seq #length #list-tail #append or "bad description passed to larceny:parse-options" #error #|\x0;make-eq-hashtable~1pxGHH~7675| #f #( #(|\x0;loop~1pxGHH~8965| #f 2 src/Build/compile-standard-libraries.sch #(20 1 0) (|\x0;strings~1pxGHH~8968| |\x0;others~1pxGHH~8969|)) #reverse #f #( #(#f #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (|\x0;description~1pxGHH~8972|)) #|\x0;hashtable-ref~1pxGHH~7722| #reverse)
+ #|\x0;map~1pxGHH~1463| #values #apply #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 3 src/Build/compile-standard-libraries.sch #(20 1 0) (|\x0;strings~1pxGHH~8976| |\x0;matched-strings~1pxGHH~8977| |\x0;maybe-description~1pxGHH~8978|)) #|\x0;hashtable-ref~1pxGHH~7722| #|\x0;hashtable-set!~1pxGHH~7723|)
+ #call-with-values)
+)
+ (larceny parse-options) ((larceny:parse-options variable |\x0;larceny:parse-options~1pxGHH~8885| (0) #f (larceny parse-options))) (((srfi 126) 0) ((scheme base) 0)) (|\x0;build~1pxGHH~8293| |\x0;build~1pxGHH~4481|) |\x0;build~1pxGHH~8982| #ex:make-library #ex:register-library! #values)
+ #f)
+))

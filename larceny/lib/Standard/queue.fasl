@@ -1,0 +1,43 @@
+#!fasl
+(define .petit-bootstrap-id-c70cd69cad4bc24b6a3b2e07211a8efc (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/Standard/queue.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-c70cd69cad4bc24b6a3b2e07211a8efc 0
+'#(#f #( #f assert #require)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-c70cd69cad4bc24b6a3b2e07211a8efc 1
+'#(#f #( #f #make-queue make-queue)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-c70cd69cad4bc24b6a3b2e07211a8efc 2
+'#(#f #( #f #queue? queue?)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-c70cd69cad4bc24b6a3b2e07211a8efc 3
+'#(#f #( #f #queue-empty? queue-empty?)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-c70cd69cad4bc24b6a3b2e07211a8efc 4
+'#(#f #( #f #queue-put! queue-put!)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-c70cd69cad4bc24b6a3b2e07211a8efc 5
+'#(#f #( #f #queue-get! queue-get!)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-c70cd69cad4bc24b6a3b2e07211a8efc 6
+'#(#f #( #f #queue-remove! queue-remove!)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-c70cd69cad4bc24b6a3b2e07211a8efc 7
+'#(#f #( #f "queue" (head tail) #make-record-type #record-constructor head #record-accessor #record-updater tail #f #( #(make-queue #f 0 #f #f ()))
+ #make-queue #record-predicate #queue? #f #( #(queue-empty? #f 1 #f #f (x)))
+ #queue-empty? #f #( #(queue-put! #f 2 #f #f (queue obj)) #f #( #(#f #f 0 #f #f ()))
+ #call-without-interrupts)
+ #queue-put! #f #( #(queue-get! #f 1 #f #f (queue)) #f #( #(#f #f 0 #f #f ()) (not (null? item)) #failed-assertion)
+ #call-without-interrupts)
+ #queue-get! #f #( #(queue-remove! #f 2 #f #f (queue obj)) #f #( ((0 . #(#f #f 0 #f #f ())) (503 . #(loop #f 2 #f #f (p pp)))))
+ #call-without-interrupts)
+ #queue-remove! queue)
+ #f)
+))

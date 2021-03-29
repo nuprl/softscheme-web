@@ -1,0 +1,8 @@
+#!fasl
+(define .petit-bootstrap-id-13a3cb248c83c2d8382c11616681fb72 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/Standard/symbol.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-13a3cb248c83c2d8382c11616681fb72 0
+'#(#f #( #f #readtable-ref #f #( ((0 . #(bar-reader #f 2 #f #f (c p))) (2649 . #(loop #f 2 #f #f (c l)))) #io/get-char "EOF in |...| symbol." #error #reverse #list->string #string->symbol)
+ #readtable-set! bar-reader)
+ #f)
+))

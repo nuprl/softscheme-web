@@ -1,0 +1,19 @@
+#!fasl
+(define .petit-bootstrap-id-d024bc12b199148c6e86b0392dc06213 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/R6RS/rnrs/eval.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-d024bc12b199148c6e86b0392dc06213 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #values #apply)
+ (rnrs eval) ((eval variable ex:eval (0) #f (larceny PRIMITIVES)) (environment variable ex:environment (0) #f (larceny PRIMITIVES))) (((core primitives) 0)) (|\x0;build~1pxGHH~2|) |\x0;build~1pxGHH~4431| #ex:make-library #ex:register-library! #values)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-d024bc12b199148c6e86b0392dc06213 1
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #values #apply)
+ (rnrs eval reflection) ((environment-bindings variable ex:environment-bindings (0) #f (larceny PRIMITIVES))) (((core primitives) 0)) (|\x0;build~1pxGHH~2|) |\x0;build~1pxGHH~4432| #ex:make-library #ex:register-library! #values)
+ #f)
+))

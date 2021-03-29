@@ -1,0 +1,11 @@
+#!fasl
+(define .petit-bootstrap-id-f46fef02a7ec76df4c4b984add9eda90 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/R6RS/larceny/r7rs/primitives/lowlevel.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-f46fef02a7ec76df4c4b984add9eda90 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #values #apply)
+ (larceny r7rs primitives lowlevel) ((current-seconds variable current-seconds (0) #f (larceny PRIMITIVES)) (current-utc-time variable |\x0;larceny:current-utc-time~1pxGHH~3653| (0) #f (larceny r7rs primitives patches)) (ex:interaction-environment variable ex:interaction-environment (0) #f (larceny PRIMITIVES)) (jiffies-per-second variable |\x0;jiffies-per-second~1pxGHH~3654| (0) #f (larceny r7rs primitives patches)) (larceny:features variable larceny:features (0) #f (larceny PRIMITIVES)) (larceny:use-r7rs-semantics! variable larceny:use-r7rs-semantics! (0) #f (larceny PRIMITIVES)) (r7rs:bytevector-copy! variable r7rs:bytevector-copy! (0) #f (larceny PRIMITIVES))) (((larceny r7rs primitives patches) 0)) (|\x0;build~1pxGHH~3681|) |\x0;build~1pxGHH~3686| #ex:make-library #ex:register-library! #values)
+ #f)
+))

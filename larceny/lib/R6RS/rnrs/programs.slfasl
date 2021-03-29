@@ -1,0 +1,12 @@
+#!fasl
+(define .petit-bootstrap-id-a89fbadd3377424b1374d4c5860e5504 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/R6RS/rnrs/programs.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-a89fbadd3377424b1374d4c5860e5504 0
+'#(#f #( #f #ex:unspecified #|\x0;command-line~1pxGHH~7223| #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( ((0 . #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ())) (830 . #(|\x0;command-line~1pxGHH~7223| #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))) #ex:undefined #|\x0;command-line~1pxGHH~7223| #f #( #(#f #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (t0f0010)) #|\x0;command-line~1pxGHH~7223| #values)
+ #values #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #apply #command-line-arguments #vector->list "larceny")
+ (rnrs programs) ((command-line variable |\x0;command-line~1pxGHH~7223| (0) #f (rnrs programs)) (exit variable exit (0) #f (larceny PRIMITIVES))) (((rnrs base) 0) ((core primitives) 0)) (|\x0;build~1pxGHH~1533| |\x0;build~1pxGHH~2|) |\x0;build~1pxGHH~7225| #ex:make-library #ex:register-library! #values)
+ #f)
+))

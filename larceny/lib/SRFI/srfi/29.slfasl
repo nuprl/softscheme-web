@@ -1,0 +1,19 @@
+#!fasl
+(define .petit-bootstrap-id-8e1c5f0081ecc2c948c95cb5709465ef (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/SRFI/srfi/29.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-8e1c5f0081ecc2c948c95cb5709465ef 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #values #apply)
+ (srfi 29 localization) ((current-language variable |\x0;current-language~1pxGHH~55537| (0) #f (srfi :29 localization)) (current-country variable |\x0;current-country~1pxGHH~55538| (0) #f (srfi :29 localization)) (current-locale-details variable |\x0;current-locale-details~1pxGHH~55539| (0) #f (srfi :29 localization)) (declare-bundle! variable |\x0;declare-bundle!~1pxGHH~55542| (0) #f (srfi :29 localization)) (store-bundle variable |\x0;store-bundle~1pxGHH~55547| (0) #f (srfi :29 localization)) (store-bundle! variable |\x0;store-bundle!~1pxGHH~55541| (0) #f (srfi :29 localization)) (load-bundle! variable |\x0;load-bundle!~1pxGHH~55540| (0) #f (srfi :29 localization)) (localized-template variable |\x0;localized-template~1pxGHH~55543| (0) #f (srfi :29 localization)) (format variable |\x0;format~1pxGHH~55544| (0) #f (srfi :29 localization))) (((srfi :29 localization) 0)) (|\x0;build~1pxGHH~55776|) |\x0;build~1pxGHH~55784| #ex:make-library #ex:register-library! #values)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-8e1c5f0081ecc2c948c95cb5709465ef 1
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #values #apply)
+ (srfi 29) ((current-language variable |\x0;current-language~1pxGHH~55537| (0) #f (srfi :29 localization)) (current-country variable |\x0;current-country~1pxGHH~55538| (0) #f (srfi :29 localization)) (current-locale-details variable |\x0;current-locale-details~1pxGHH~55539| (0) #f (srfi :29 localization)) (declare-bundle! variable |\x0;declare-bundle!~1pxGHH~55542| (0) #f (srfi :29 localization)) (store-bundle variable |\x0;store-bundle~1pxGHH~55547| (0) #f (srfi :29 localization)) (store-bundle! variable |\x0;store-bundle!~1pxGHH~55541| (0) #f (srfi :29 localization)) (load-bundle! variable |\x0;load-bundle!~1pxGHH~55540| (0) #f (srfi :29 localization)) (localized-template variable |\x0;localized-template~1pxGHH~55543| (0) #f (srfi :29 localization)) (format variable |\x0;format~1pxGHH~55544| (0) #f (srfi :29 localization))) (((srfi 29 localization) 0)) (|\x0;build~1pxGHH~55784|) |\x0;build~1pxGHH~55785| #ex:make-library #ex:register-library! #values)
+ #f)
+))

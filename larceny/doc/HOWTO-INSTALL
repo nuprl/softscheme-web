@@ -1,0 +1,124 @@
+Installing Larceny
+
+
+Short version:
+
+Put Larceny's main directory wherever you like, and give it
+whatever name you like.
+
+Copy the executable scripts (larceny and scheme-script) wherever
+you like, and edit them to set LARCENY_ROOT to the absolute
+path of Larceny's main directory.  (On Linux systems, you can
+just create links to those scripts instead of copying them, and
+you don't need to edit them.)  You may also want to copy or
+create links to the compile-larceny and compile-stale scripts.
+
+If the directory that contains the executable scripts is not
+already part of your path, then add it to your path.
+
+If that doesn't work, keep reading.
+
+
+System requirements:
+
+To build Larceny from source code, see HOWTO-BUILD.  Prebuilt
+binary distributions of Larceny are available for machines with
+ARMv7 or Intel IA32 and compatible (i386 or x86-32) processors
+running the following operating systems:
+
+    Linux
+    MacOS X
+    Windows XP or later
+
+Although Larceny still uses 32-bit pointers, it will run on
+64-bit machines provided the necessary 32-bit compatibility
+libraries have been installed.
+
+On Linux machines, the 32-bit libraries can be installed by
+incanting something like
+
+    sudo apt-get install lib32z1
+    sudo apt-get install libc6-i386
+
+(The second of those should be unnecessary because libc6-i386
+should be installed automatically when lib32z1 is installed.)
+To build Larceny from source, you would also need to install
+libc6-dev-i386.
+
+On Macintoshes with Intel processors, the 32-bit libraries
+should already be installed.  If they aren't, installing the
+Apple Developer command-line tools should fix the problem.
+
+On Windows, the DEP feature must be told to allow Larceny to
+opt-out.  (See below.)
+
+
+Long version:
+
+After you download a binary distribution of Larceny or build from
+source, there will be several scripts for starting Larceny in the root
+of the Larceny tree.  These can be run from that location, regardless of
+where you keep the tree.  If you want to make Larceny available to other
+users of your system, however, or if you want to install the executables
+in a standard place, this document will tell you how.
+
+Larceny is usually started by a script, which has two functions:
+
+ - It sets an environment variable LARCENY_ROOT to the absolute path of
+   the Larceny tree, which is assumed to be the same as the directory
+   that the script is in.
+
+ - It dispatches on the name of the script, to choose both a Larceny
+   executable (such as larceny.bin) and a heap image (such as
+   larceny.heap).
+
+Which scripts you have depends on what platform you are using:
+
+ - Windows: Batch files "larceny.bat" and "twobit.bat"
+ - Linux, Mac OS X: Shell scripts "larceny", "scheme-script",
+    compile-larceny, and "compile-stale"
+
+Note that "twobit" and "twobit.heap" are no longer distributed
+as part of Larceny's binary distributions.
+
+If you would like to move a larceny or twobit script to another
+directory but not rename it, it is sufficient to hard-code the
+location of Larceny's root directory into the script.  For
+example, to install Petit Larceny into /usr/local on Linux,
+untar the Larceny tree as /usr/local/lib/larceny.  Then copy
+the scripts "larceny", "scheme-script", "compile-stale", and
+"compile-larceny" to /usr/local/bin, editing the first two by
+uncommenting the line that sets LARCENY_ROOT, and setting it to
+/usr/local/lib/larceny.
+
+If you would like to change something else, such as the name of
+a script, editing the script should not be too difficult.
+
+Larceny is one of the few implementations of R6RS Scheme that
+provides the scheme-script feature proposed by the R6RS editors,
+but other implementations may define their own scheme-script.  If
+you want Larceny to execute your Scheme scripts, then you should
+use the which command to make sure Larceny's scheme-script comes
+before any others in your execution path.  (By the way, Larceny's
+scheme-script feature now executes programs in R7RS mode rather
+than R6RS.  Because Larceny's implementation of the R7RS acts as
+a superset of the R6RS standard, all programs that run in R7RS
+mode should also run in R6RS mode, but the reverse is not true.)
+
+Windows and DEP:
+
+Larceny will not run if the DEP feature of Windows is set to
+AlwaysOn.  To set the DEP feature to OptOut, which we recommend,
+someone with administrative privileges must do the following:
+
+    Click on the Start icon
+    Type "cmd" into the search box.
+    In the list of search results, right click the "cmd" program.
+    Choose "Run as administrator".
+    When asked whether you want to allow the program to make
+        changes to this computer, answer Yes.
+    Type the following command:
+
+        bcdedit.exe /set nx OptOut
+
+    Restart Windows.

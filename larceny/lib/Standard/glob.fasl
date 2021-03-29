@@ -1,0 +1,8 @@
+#!fasl
+(define .petit-bootstrap-id-41c9160c129e8bc1cee6980ca7c7399b (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/Standard/glob.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-41c9160c129e8bc1cee6980ca7c7399b 0
+'#(#f #( #f #f #( ((0 . #(glob #f 2 #f #f (pat str))) (188 . #(charset-loop #f 3 #f #f (p first-time? success?))) (5131 . #(loop #f 1 #f #f (s))) (7123 . #(loop #f 1 #f #f (s))) (8134 . #(match #f 2 #f #f (p s))) (16117 . #(charset-matcher #f 3 #f #f (p s complement?))) (17154 . #(glob #f 2 #f #f (pat str)))))
+ #glob glob)
+ #f)
+))

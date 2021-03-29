@@ -1,0 +1,10 @@
+#!fasl
+(define .petit-bootstrap-id-5ba6d6bb533627a7932debfec1958db9 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/SRFI/srfi/34.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-5ba6d6bb533627a7932debfec1958db9 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ (srfi 34) ((with-exception-handler variable with-exception-handler (0) #f (larceny PRIMITIVES)) (guard macro |\x0;guard~1pxGHH~1548| (0) #f (rnrs exceptions)) (raise variable raise (0) #f (larceny PRIMITIVES))) (((scheme base) 0)) (|\x0;build~1pxGHH~4481|) |\x0;build~1pxGHH~55799| #ex:make-library #ex:register-library! #values)
+ #f)
+))

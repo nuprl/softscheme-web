@@ -1,0 +1,23 @@
+#!fasl
+(define .petit-bootstrap-id-3fa451df20ec76b509972297ff81ae12 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/Standard/regexp.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-3fa451df20ec76b509972297ff81ae12 0
+'#(#f #( #f #regexp-compile regexp-compile)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-3fa451df20ec76b509972297ff81ae12 1
+'#(#f #( #f #regexp-match regexp-match)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-3fa451df20ec76b509972297ff81ae12 2
+'#(#f #( #f #f #( ((873 . #(loop #f 2 #f #f (r k))) (2740 . #(loop #f 2 #f #f (r i))) (5940 . #(loop #f 2 #f #f (r i))) (9064 . #(loop #f 1 #f #f (i))) (10106 . #(loopj #f 1 #f #f (chars))) (11486 . #(loopj #f 1 #f #f (chars))) (12843 . #(loopm #f 2 #f #f (i k))) (14116 . #(mul-recur #f 2 #f #f (i k))) (17509 . #(mul-recur #f 1 #f #f (i))) (20310 . #(mul-recur #f 1 #f #f (i))) (22933 . #(seq-recur #f 2 #f #f (res i))) (35186 . #(recur #f 2 #f #f (re i))) (43359 . #(pregexp-match-anchoring-left #f 4 #f #f (re s i n))) (44814 . #(pregexp-match-precompiled #f 2 #f #f (re s))) (45168 . #(pregexp-read-chunk #f 3 #f #f (s i n))) (50345 . #(pregexp-wrap-multiplier-if-any #f 3 #f #f (s vv n)))) #f #( ((0 . #(pregexp-compile #f 1 #f #f (s))) (463 . #(loop #f 2 #f #f (r i)))) #reverse :seq)
+ #f #( #(pregexp-match #f 2 #f #f (pat str)))
+ #regexp-compile #regexp-match regexp #char-numeric? #reverse #list->string #string->number :one-of-chars :char-range :seq :sub #f #( #(#f #f 0 #f #f ()))
+ #f #( #(#f #f 0 #f #f ()))
+ #f #( #(#f #f 0 #f #f ()))
+ (:zero-or-one :zero-or-more :one-or-more :between-nums) #memv :zero-or-one #f #( #(#f #f 0 #f #f ()))
+ #f #( #(#f #f 0 #f #f ()))
+ :zero-or-more :one-or-more :between-nums #length :bos :eos :any :none-of-chars)
+)
+ #f)
+))

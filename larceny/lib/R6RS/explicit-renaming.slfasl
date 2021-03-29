@@ -1,0 +1,18 @@
+#!fasl
+(define .petit-bootstrap-id-1f3549b866f18ae6b8ced94929fde7b7 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/R6RS/explicit-renaming.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-1f3549b866f18ae6b8ced94929fde7b7 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) (((|\x0;env~1pxGHH~24300| 0 1 2 3)) (3 (((er-transformer) macro |\x0;er-transformer~1pxGHH~24291| (0) #f (explicit-renaming helper)) ((define-syntax) macro define-syntax (0 1) #f ()) ((lambda) macro lambda (0 1) #f ()) ((syntax-case) macro syntax-case (0 1) #f ()) ((syntax) macro syntax (0 1) #f ()) ((datum->syntax) variable ex:datum->syntax (0 1) #f (larceny PRIMITIVES)) ((free-identifier=?) variable ex:free-identifier=? (0 1) #f (larceny PRIMITIVES)))) (2 (((exp) variable |\x0;exp~1pxGHH~24293| (1) #f (explicit-renaming helper)))) (1 ()) (0 (((k) . #f) ((proc) . #f)))) #ex:uncompress)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (|\x0;exp~1pxGHH~24293|)) lambda (|\x0;env~1pxGHH~24300|) (explicit-renaming helper) #ex:syntax-rename form symbol datum->syntax syntax free-identifier=? #ex:invalid-form)
+ |\x0;er-transformer~1pxGHH~24291| #ex:register-macro! #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ (explicit-renaming helper) ((er-transformer macro |\x0;er-transformer~1pxGHH~24291| (0) #f (explicit-renaming helper))) (((rnrs syntax-case) 0 1) ((rnrs base) 0 1)) (|\x0;build~1pxGHH~1800| |\x0;build~1pxGHH~1533|) |\x0;build~1pxGHH~24305| #ex:make-library #ex:register-library! #values)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-1f3549b866f18ae6b8ced94929fde7b7 1
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ (explicit-renaming) ((er-transformer macro |\x0;er-transformer~1pxGHH~24291| (0) #f (explicit-renaming helper)) (identifier? variable ex:identifier? (0) #f (larceny PRIMITIVES)) (bound-identifier=? variable ex:bound-identifier=? (0) #f (larceny PRIMITIVES)) (datum->syntax variable ex:datum->syntax (0) #f (larceny PRIMITIVES))) (((rnrs syntax-case) 0) ((explicit-renaming helper) 0)) (|\x0;build~1pxGHH~1800| |\x0;build~1pxGHH~24305|) |\x0;build~1pxGHH~24306| #ex:make-library #ex:register-library! #values)
+ #f)
+))

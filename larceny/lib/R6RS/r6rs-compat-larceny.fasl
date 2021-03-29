@@ -1,0 +1,29 @@
+#!fasl
+(define .petit-bootstrap-id-3daff06a98033acad296da86c18884ca (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/R6RS/r6rs-compat-larceny.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-3daff06a98033acad296da86c18884ca 0
+'#(#f #( #f #f #( #(ex:unique-token #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #current-seconds #larceny:number->compactstring)
+ #ex:unique-token ex:unique-token)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-3daff06a98033acad296da86c18884ca 1
+'#(#f #( #f undefined #ex:undefined ex:undefined)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-3daff06a98033acad296da86c18884ca 2
+'#(#f #( #f set! #ex:undefined-set! ex:undefined-set!)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-3daff06a98033acad296da86c18884ca 3
+'#(#f #( #f "\x0;" #ex:guid-prefix ex:guid-prefix)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-3daff06a98033acad296da86c18884ca 4
+'#(#f #( #f "\x1;" #ex:free-prefix ex:free-prefix)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-3daff06a98033acad296da86c18884ca 5
+'#(#f #( #f #f #( ((0 . #(larceny:number->compactstring #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (n))) (188 . #(loop #f 2 src/Build/compile-standard-libraries.sch #(20 1 0) (n chars))) (2948 . #(larceny:number->compactstring #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (n)))) "0" #list->string #div #apply #bitwise-and "assertion failed" (and (number? n) (integer? n) (exact? n) (not (negative? n))) #assertion-violation "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ%&")
+ #larceny:number->compactstring larceny:number->compactstring)
+ #f)
+))

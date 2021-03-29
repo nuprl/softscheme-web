@@ -1,0 +1,19 @@
+#!fasl
+(define .petit-bootstrap-id-33ebe5f522a899afd19eb57461734913 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/SRFI/srfi/25.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-33ebe5f522a899afd19eb57461734913 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #values #apply)
+ (srfi 25 multi-dimensional-arrays) ((array? variable |\x0;array?~1pxGHH~53855| (0) #f (srfi :25 multi-dimensional-arrays)) (make-array variable |\x0;make-array~1pxGHH~53856| (0) #f (srfi :25 multi-dimensional-arrays)) (shape variable |\x0;shape~1pxGHH~53858| (0) #f (srfi :25 multi-dimensional-arrays)) (array variable |\x0;array~1pxGHH~53859| (0) #f (srfi :25 multi-dimensional-arrays)) (array-rank variable |\x0;array-rank~1pxGHH~53860| (0) #f (srfi :25 multi-dimensional-arrays)) (array-start variable |\x0;array-start~1pxGHH~53861| (0) #f (srfi :25 multi-dimensional-arrays)) (array-end variable |\x0;array-end~1pxGHH~53862| (0) #f (srfi :25 multi-dimensional-arrays)) (array-ref variable |\x0;array-ref~1pxGHH~53829| (0) #f (srfi :25 multi-dimensional-arrays)) (array-set! variable |\x0;array-set!~1pxGHH~53830| (0) #f (srfi :25 multi-dimensional-arrays)) (share-array variable |\x0;share-array~1pxGHH~53863| (0) #f (srfi :25 multi-dimensional-arrays))) (((srfi :25 multi-dimensional-arrays) 0)) (|\x0;build~1pxGHH~55259|) |\x0;build~1pxGHH~55267| #ex:make-library #ex:register-library! #values)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-33ebe5f522a899afd19eb57461734913 1
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #values #apply)
+ (srfi 25) ((array? variable |\x0;array?~1pxGHH~53855| (0) #f (srfi :25 multi-dimensional-arrays)) (make-array variable |\x0;make-array~1pxGHH~53856| (0) #f (srfi :25 multi-dimensional-arrays)) (shape variable |\x0;shape~1pxGHH~53858| (0) #f (srfi :25 multi-dimensional-arrays)) (array variable |\x0;array~1pxGHH~53859| (0) #f (srfi :25 multi-dimensional-arrays)) (array-rank variable |\x0;array-rank~1pxGHH~53860| (0) #f (srfi :25 multi-dimensional-arrays)) (array-start variable |\x0;array-start~1pxGHH~53861| (0) #f (srfi :25 multi-dimensional-arrays)) (array-end variable |\x0;array-end~1pxGHH~53862| (0) #f (srfi :25 multi-dimensional-arrays)) (array-ref variable |\x0;array-ref~1pxGHH~53829| (0) #f (srfi :25 multi-dimensional-arrays)) (array-set! variable |\x0;array-set!~1pxGHH~53830| (0) #f (srfi :25 multi-dimensional-arrays)) (share-array variable |\x0;share-array~1pxGHH~53863| (0) #f (srfi :25 multi-dimensional-arrays))) (((srfi 25 multi-dimensional-arrays) 0)) (|\x0;build~1pxGHH~55267|) |\x0;build~1pxGHH~55268| #ex:make-library #ex:register-library! #values)
+ #f)
+))

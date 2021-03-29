@@ -1,0 +1,11 @@
+#!fasl
+(define .petit-bootstrap-id-fa5e56395b48c6282b4e344933766df9 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/R7RS/scheme/file.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-fa5e56395b48c6282b4e344933766df9 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #values #apply)
+ (scheme file) ((call-with-input-file variable call-with-input-file (0) #f (larceny PRIMITIVES)) (call-with-output-file variable call-with-output-file (0) #f (larceny PRIMITIVES)) (delete-file variable delete-file (0) #f (larceny PRIMITIVES)) (file-exists? variable file-exists? (0) #f (larceny PRIMITIVES)) (open-binary-input-file variable open-file-input-port (0) #f (larceny PRIMITIVES)) (open-binary-output-file variable open-file-output-port (0) #f (larceny PRIMITIVES)) (open-input-file variable open-input-file (0) #f (larceny PRIMITIVES)) (open-output-file variable open-output-file (0) #f (larceny PRIMITIVES)) (with-input-from-file variable with-input-from-file (0) #f (larceny PRIMITIVES)) (with-output-to-file variable with-output-to-file (0) #f (larceny PRIMITIVES))) (((rnrs files) 0) ((rnrs io ports) 0) ((rnrs io simple) 0)) (|\x0;build~1pxGHH~4512| |\x0;build~1pxGHH~4424| |\x0;build~1pxGHH~1534|) |\x0;build~1pxGHH~4517| #ex:make-library #ex:register-library! #values)
+ #f)
+))

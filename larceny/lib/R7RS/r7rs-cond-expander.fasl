@@ -1,0 +1,136 @@
+#!fasl
+(define .petit-bootstrap-id-98e3939946a3a1958d144abcc2a62191 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/R6RS/../R7RS/r7rs-cond-expander.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-98e3939946a3a1958d144abcc2a62191 0
+'#(#f #( #f #f #( ((0 . #(larceny:cond-expand #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (form))) (140 . #(larceny:cond-expand #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (form)))) #larceny:interpret-cond-expand)
+ #larceny:cond-expand larceny:cond-expand)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-98e3939946a3a1958d144abcc2a62191 1
+'#(#f #( #f #f #( ((0 . #(larceny:get-feature #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (name))) (140 . #(larceny:get-feature #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (name)))) #system-features #assq)
+ #larceny:get-feature larceny:get-feature)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-98e3939946a3a1958d144abcc2a62191 2
+'#(#f #( #f #f #( #(larceny:name-of-this-implementation #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) larceny)
+ #larceny:name-of-this-implementation larceny:name-of-this-implementation)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-98e3939946a3a1958d144abcc2a62191 3
+'#(#f #( #f #f #( ((0 . #(larceny:name-of-this-implementation-version #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ())) (140 . #(larceny:name-of-this-implementation-version #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))) larceny-major-version #larceny:get-feature larceny-minor-version #larceny:name-of-this-implementation #symbol->string #number->string "-" "." #string-append)
+ #larceny:name-of-this-implementation-version larceny:name-of-this-implementation-version)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-98e3939946a3a1958d144abcc2a62191 4
+'#(#f #( #f #f #( ((0 . #(larceny:declared-features #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ())) (140 . #(larceny:declared-features #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))) #*larceny:declared-features* r7features #larceny:get-feature "(" ")" #string-append #open-input-string #read #close-input-port)
+ #larceny:declared-features larceny:declared-features)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-98e3939946a3a1958d144abcc2a62191 5
+'#(#f #( #f #*larceny:declared-features* *larceny:declared-features*)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-98e3939946a3a1958d144abcc2a62191 6
+'#(#f #( #f #larceny:declared-features #list? "larceny:current-declared-features" #make-parameter #larceny:current-declared-features larceny:current-declared-features)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-98e3939946a3a1958d144abcc2a62191 7
+'#(#f #( #f #f #( ((0 . #(larceny:evaluate-feature #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (feature))) (140 . #(larceny:evaluate-feature #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (feature)))) #(little-endian 19 #f 0 complex 3 #f 0 darwin 10 ppc 13 #f 0 big-endian 18 #f 0 unicode-7 6 #f 0 #f 0 larceny 3 #f 0 exact-complex 3 #f 0 #f 0 ratios 3 #f 0 sparc 15 larceny-0.99 4 larceny-0.98 4 i386 12 ilp64 17 arm 14 #f 0 #f 0 full-unicode-strings 6 clr 16 exact-closed 3 posix 7 windows 8 #f 0 larceny-2.0 4 larceny-1.3 4 #f 0 r6rs 2 r7rs 2 #f 0 larceny-1.5 4 full-unicode 5 #f 0 #f 0 unix 9 #f 0 #f 0 #f 0 #f 0 #f 0 #f 0 #f 0 #f 0 ilp32 12 #f 0 #f 0 #f 0 #f 0 #f 0 llvm 17 gnu-linux 11 #f 0 #f 0 else 1 ieee-float 3 lp64 17 #f 0 #f 0) #larceny:name-of-this-implementation #larceny:name-of-this-implementation-version #larceny:current-declared-features #memq #symbol->string #substring "srfi-" #string-ci=? #string->number srfi library execution-mode #larceny:get-feature r7rs (r7rs r7r6 r6rs err5rs) r7r6 r6rs err5rs larceny-major-version larceny-minor-version #number->string "larceny-" "." #string-append #string=? char-representation unicode string-representation flat4 os-name ("SunOS" "Linux" "MacOS X") #member #larceny:os windows unix "MacOS X" "Linux" arch-name ("X86-NASM" "IAssassin") "ARM" "SPARC" "CLR" arch-endianness big little cond-expand "malformed feature requirement" #assertion-violation #list? #larceny:find-r6rs-library #larceny:find-r6rs-library-really? and and or or not)
+ #larceny:evaluate-feature larceny:evaluate-feature)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-98e3939946a3a1958d144abcc2a62191 8
+'#(#f #( #f #f #( ((0 . #(larceny:interpret-cond-expand #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (clauses))) (166 . #(loop #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (clauses)))) #list? cond-expand "malformed cond-expand" #assertion-violation #larceny:evaluate-feature)
+ #larceny:interpret-cond-expand larceny:interpret-cond-expand)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-98e3939946a3a1958d144abcc2a62191 9
+'#(#f #( #f (r7rs r6rs larceny exact-closed ratios exact-complex complex ieee-float full-unicode full-unicode-strings unicode-5 unicode-6 unicode-7 posix windows unix darwin gnu-linux bsd freebsd solaris i386 x86-64 ppc sparc jvm clr llvm arm ilp32 lp64 ilp64 big-endian little-endian) #*standard-feature-keywords* *standard-feature-keywords*)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-98e3939946a3a1958d144abcc2a62191 10
+'#(#f #( #f #f #( ((0 . #(larceny:features #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ())) (191 . #(loop #f 2 src/Build/compile-standard-libraries.sch #(20 1 0) (|.y1\|110\|111| |.results\|110\|114|))) (995 . #(larceny:features #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))) #reverse #larceny:name-of-this-implementation-version #string->symbol #larceny:evaluate-feature #*standard-feature-keywords* #filter #larceny:current-declared-features #larceny:available-source-libraries #append)
+ #larceny:features larceny:features)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-98e3939946a3a1958d144abcc2a62191 11
+'#(#f #( #f #f #( ((0 . #(larceny:make-library-entry #f 5 src/Build/compile-standard-libraries.sch #(20 1 0) (name exports imports filename multiple?))) (142 . #(larceny:make-library-entry #f 5 src/Build/compile-standard-libraries.sch #(20 1 0) (name exports imports filename multiple?)))))
+ #larceny:make-library-entry larceny:make-library-entry)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-98e3939946a3a1958d144abcc2a62191 12
+'#(#f #( #f #f #( #(larceny:library-entry-name #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (entry)))
+ #larceny:library-entry-name larceny:library-entry-name)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-98e3939946a3a1958d144abcc2a62191 13
+'#(#f #( #f #f #( ((0 . #(larceny:library-entry-exports #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (entry))) (142 . #(larceny:library-entry-exports #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (entry)))))
+ #larceny:library-entry-exports larceny:library-entry-exports)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-98e3939946a3a1958d144abcc2a62191 14
+'#(#f #( #f #f #( ((0 . #(larceny:library-entry-imports #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (entry))) (142 . #(larceny:library-entry-imports #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (entry)))))
+ #larceny:library-entry-imports larceny:library-entry-imports)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-98e3939946a3a1958d144abcc2a62191 15
+'#(#f #( #f #f #( ((0 . #(larceny:library-entry-filename #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (entry))) (142 . #(larceny:library-entry-filename #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (entry)))))
+ #larceny:library-entry-filename larceny:library-entry-filename)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-98e3939946a3a1958d144abcc2a62191 16
+'#(#f #( #f #f #( ((0 . #(larceny:library-entry-multiple? #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (entry))) (142 . #(larceny:library-entry-multiple? #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (entry)))))
+ #larceny:library-entry-multiple? larceny:library-entry-multiple?)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-98e3939946a3a1958d144abcc2a62191 17
+'#(#f #( #f #f #( ((0 . #(larceny:library-entry-multiple! #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (entry))) (142 . #(larceny:library-entry-multiple! #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (entry)))))
+ #larceny:library-entry-multiple! larceny:library-entry-multiple!)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-98e3939946a3a1958d144abcc2a62191 18
+'#(#f #( #f #*cached-source-libraries* *cached-source-libraries*)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-98e3939946a3a1958d144abcc2a62191 19
+'#(#f #( #f #*cached-require-path* *cached-require-path*)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-98e3939946a3a1958d144abcc2a62191 20
+'#(#f #( #f #*cached-time* *cached-time*)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-98e3939946a3a1958d144abcc2a62191 21
+'#(#f #( #f #f #( #(larceny:cache-available-source-libraries! #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (libs)) #*cached-source-libraries* #current-require-path #*cached-require-path* #current-seconds #*cached-time*)
+ #larceny:cache-available-source-libraries! larceny:cache-available-source-libraries!)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-98e3939946a3a1958d144abcc2a62191 22
+'#(#f #( #f #f #( ((0 . #(larceny:cache-of-available-source-libraries #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ())) (142 . #(larceny:cache-of-available-source-libraries #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))) #*cached-source-libraries* #list? #current-require-path #*cached-require-path* #equal? #current-seconds #*cached-time*)
+ #larceny:cache-of-available-source-libraries larceny:cache-of-available-source-libraries)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-98e3939946a3a1958d144abcc2a62191 23
+'#(#f #( #f #f #( ((0 . #(larceny:available-source-libraries #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ())) (191 . #(loop #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (|.y1\|345\|346|))) (1151 . #(loop #f 2 src/Build/compile-standard-libraries.sch #(20 1 0) (|.y1\|570\|571| |.results\|570\|574|))) (2306 . #(loop #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (|.y1\|493\|494|))) (3266 . #(loop #f 2 src/Build/compile-standard-libraries.sch #(20 1 0) (|.y1\|529\|530| |.results\|529\|533|))) (4302 . #(loop #f 2 src/Build/compile-standard-libraries.sch #(20 1 0) (|.y1\|613\|614| |.results\|613\|617|))) (5382 . #(process-library! #f 2 src/Build/compile-standard-libraries.sch #(20 1 0) (library fname))) (8621 . #(make-process-libraries! #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (fname))) (8735 . #(process-file! #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (file))) (10829 . #(lexicographic #f 2 src/Build/compile-standard-libraries.sch #(20 1 0) (lib1 lib2))) (16026 . #(larceny:available-source-libraries #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))) #reverse #larceny:absolute-path #larceny:library->entry #larceny:library-entry-name #assoc #equal? #f #( #(#f #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (entry)) #larceny:library-entry-name #equal?)
+ #filter #f #( ((0 . #(#f #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (in))) (449 . #(loop #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (x)))) #read)
+ #larceny:directory? #f #( #(#f #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (type)) #file-type=?)
+ #*library-suffixes-source* #exists #larceny:contains-libraries-only? #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #call-with-input-file)
+ #call-without-errors #symbol->string #string<? #f #( #(by-name #f 2 src/Build/compile-standard-libraries.sch #(20 1 0) (lib1 lib2)))
+ #f #( #(find-available-libraries! #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (path)) #larceny:directory? #member #list-directory #larceny:sort-by-suffix-priority #current-directory #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #parameter? no-conversion)
+ #f #( ((0 . #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ())) (191 . #(loop #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (files)))))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #parameter? no-conversion)
+ #dynamic-wind)
+ #f #( #(mark-as-multiple! #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (entry)) #larceny:library-entry-multiple!)
+ #f #( ((0 . #(disambiguate-multiply-defined #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (entry))) (2938 . #(fasl? #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (fname)))) #larceny:library-entry-multiple? #larceny:library-entry-name #larceny:find-r6rs-library #generate-source-names #file-exists? #filter #f #( ((0 . #(entry-for-lib #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (in))) (143 . #(loop #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))) #read #larceny:library->entry #larceny:library-entry-name #equal?)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #call-with-input-file)
+ #call-without-errors #substring "fasl" #string=?)
+ #larceny:cache-of-available-source-libraries #f #( #(#f #f 1 src/Build/compile-standard-libraries.sch #(20 1 0) (dir)) #absolute-path-string? #current-larceny-root "/" #string-append)
+ #current-require-path #list-sort #larceny:cache-available-source-libraries!)
+ #larceny:available-source-libraries larceny:available-source-libraries)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-98e3939946a3a1958d144abcc2a62191 24
+'#(#f #( #f #f #( ((0 . #(larceny:library->entry #f 2 src/Build/compile-standard-libraries.sch #(20 1 0) (library filename))) (191 . #(loop #f 2 src/Build/compile-standard-libraries.sch #(20 1 0) (|.y1\|115\|116| |.results\|115\|119|))) (995 . #(loop #f 2 src/Build/compile-standard-libraries.sch #(20 1 0) (|.y1\|65\|66| |.results\|65\|69|))) (1799 . #(make-r7rs-entry #f 3 src/Build/compile-standard-libraries.sch #(20 1 0) (name export-decls import-decls))) (3886 . #(parse-define-library #f 4 src/Build/compile-standard-libraries.sch #(20 1 0) (name decls export-decls import-decls))) (7924 . #(possibly-okay? #f 2 src/Build/compile-standard-libraries.sch #(20 1 0) (keyword form))) (8854 . #(larceny:library->entry #f 2 src/Build/compile-standard-libraries.sch #(20 1 0) (library filename)))) #reverse #append #apply export import #larceny:make-library-entry cond-expand (cond-expand (else)) #equal? #larceny:cond-expand #list? #length #*library-keywords* #memq define-library library)
+ #larceny:library->entry larceny:library->entry)
+ #f)
+))

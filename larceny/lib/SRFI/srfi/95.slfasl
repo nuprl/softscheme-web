@@ -1,0 +1,19 @@
+#!fasl
+(define .petit-bootstrap-id-2e90b5fb09053a235fb62086b354267a (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/SRFI/srfi/95.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-2e90b5fb09053a235fb62086b354267a 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ #values #apply)
+ (srfi 95 sorting-and-merging) ((sorted? variable |\x0;sorted?~1pxGHH~79042| (0) #f (srfi :95 sorting-and-merging)) (merge variable |\x0;merge~1pxGHH~79043| (0) #f (srfi :95 sorting-and-merging)) (merge! variable |\x0;merge!~1pxGHH~79045| (0) #f (srfi :95 sorting-and-merging)) (sort variable |\x0;sort~1pxGHH~79049| (0) #f (srfi :95 sorting-and-merging)) (sort! variable |\x0;sort!~1pxGHH~79048| (0) #f (srfi :95 sorting-and-merging))) (((srfi :95 sorting-and-merging) 0)) (|\x0;build~1pxGHH~79368|) |\x0;build~1pxGHH~79376| #ex:make-library #ex:register-library! #values)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-2e90b5fb09053a235fb62086b354267a 1
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ #values #apply)
+ (srfi 95) ((sorted? variable |\x0;sorted?~1pxGHH~79042| (0) #f (srfi :95 sorting-and-merging)) (merge variable |\x0;merge~1pxGHH~79043| (0) #f (srfi :95 sorting-and-merging)) (merge! variable |\x0;merge!~1pxGHH~79045| (0) #f (srfi :95 sorting-and-merging)) (sort variable |\x0;sort~1pxGHH~79049| (0) #f (srfi :95 sorting-and-merging)) (sort! variable |\x0;sort!~1pxGHH~79048| (0) #f (srfi :95 sorting-and-merging))) (((srfi 95 sorting-and-merging) 0)) (|\x0;build~1pxGHH~79376|) |\x0;build~1pxGHH~79377| #ex:make-library #ex:register-library! #values)
+ #f)
+))

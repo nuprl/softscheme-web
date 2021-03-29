@@ -1,0 +1,24 @@
+#!fasl
+(define .petit-bootstrap-id-0ae3818d48828fe0fb5e0334f3d4f5d4 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/Standard/box.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-0ae3818d48828fe0fb5e0334f3d4f5d4 0
+'#(#f #( #f #box box)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-0ae3818d48828fe0fb5e0334f3d4f5d4 1
+'#(#f #( #f #box? box?)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-0ae3818d48828fe0fb5e0334f3d4f5d4 2
+'#(#f #( #f #unbox unbox)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-0ae3818d48828fe0fb5e0334f3d4f5d4 3
+'#(#f #( #f #set-box! set-box!)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-0ae3818d48828fe0fb5e0334f3d4f5d4 4
+'#(#f #( #f "box" (value) #make-record-type #readtable-ref #f #( #(new-sharp-dispatch #f 2 #f #f (c p)) #io/get-char "EOF in # syntax." #error #read "EOF in #& syntax." #box)
+ #record-constructor #box #record-predicate #box? value #record-accessor #unbox #record-updater #set-box! #readtable-set! box)
+ #f)
+))

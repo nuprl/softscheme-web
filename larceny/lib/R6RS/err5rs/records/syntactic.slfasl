@@ -1,0 +1,10 @@
+#!fasl
+(define .petit-bootstrap-id-8edfccadbd9b9ae9a1c9a6d18cd3b36e (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/R6RS/err5rs/records/syntactic.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-8edfccadbd9b9ae9a1c9a6d18cd3b36e 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ (err5rs records syntactic) ((define-record-type macro |\x0;define-record-type~1pxGHH~3336| (0) #f (larceny r7rs macros))) (((larceny r7rs macros) 0)) (|\x0;build~1pxGHH~3626|) |\x0;build~1pxGHH~3631| #ex:make-library #ex:register-library! #values)
+ #f)
+))

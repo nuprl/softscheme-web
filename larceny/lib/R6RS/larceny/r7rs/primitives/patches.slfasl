@@ -1,0 +1,15 @@
+#!fasl
+(define .petit-bootstrap-id-a7a5ccd736814088ca24241c7cd17c28 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/R6RS/larceny/r7rs/primitives/patches.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-a7a5ccd736814088ca24241c7cd17c28 0
+'#(#f #( #f #ex:unspecified #|\x0;jiffies-per-second~1pxGHH~3654| #|\x0;larceny:current-utc-time~1pxGHH~3653| #|\x0;can-use:current-utc-time~1pxGHH~3652| #|\x0;*trusted-arch*~1pxGHH~3651| #|\x0;*trusted-os*~1pxGHH~3650| #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #ex:undefined #|\x0;jiffies-per-second~1pxGHH~3654| #|\x0;larceny:current-utc-time~1pxGHH~3653| #|\x0;can-use:current-utc-time~1pxGHH~3652| #|\x0;*trusted-arch*~1pxGHH~3651| #|\x0;*trusted-os*~1pxGHH~3650| #f #( #(#f #f 2 src/Build/compile-standard-libraries.sch #(20 1 0) (t0f0010 t0f0020)) #|\x0;larceny:current-utc-time~1pxGHH~3653| #|\x0;jiffies-per-second~1pxGHH~3654| #values)
+ #system-features os-name #assq arch-name ("SunOS" "Linux") #|\x0;member~1pxGHH~1539| ("SPARC" "IAssassin" "Standard-C") #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #current-utc-time)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #current-seconds #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ time #r5rs:require #values #apply)
+ (larceny r7rs primitives patches) ((jiffies-per-second variable |\x0;jiffies-per-second~1pxGHH~3654| (0) #f (larceny r7rs primitives patches)) (larceny:current-utc-time variable |\x0;larceny:current-utc-time~1pxGHH~3653| (0) #f (larceny r7rs primitives patches))) (((rnrs lists) 0) ((rnrs base) 0)) (|\x0;build~1pxGHH~1541| |\x0;build~1pxGHH~1533|) |\x0;build~1pxGHH~3681| #ex:make-library #ex:register-library! #values)
+ #f)
+))

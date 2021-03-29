@@ -1,0 +1,11 @@
+#!fasl
+(define .petit-bootstrap-id-f7d7d739f03bd5c371953f594df09382 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/R6RS/rnrs/sorting.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-f7d7d739f03bd5c371953f594df09382 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #values #apply)
+ (rnrs sorting) ((list-sort variable list-sort (0) #f (larceny PRIMITIVES)) (vector-sort variable vector-sort (0) #f (larceny PRIMITIVES)) (vector-sort! variable vector-sort! (0) #f (larceny PRIMITIVES))) |\x0;build~1pxGHH~9105| #ex:make-library #ex:register-library! #values)
+ #f)
+))

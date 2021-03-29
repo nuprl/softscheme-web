@@ -1,0 +1,17 @@
+#!fasl
+(define .petit-bootstrap-id-cc3f2fe484a3c3672a5081d958f065d6 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/SRFI/srfi/8.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-cc3f2fe484a3c3672a5081d958f065d6 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ (srfi 8 receive) ((receive macro |\x0;receive~1pxGHH~4944| (0) #f (srfi :8 receive))) (((srfi :8 receive) 0)) (|\x0;build~1pxGHH~4963|) |\x0;build~1pxGHH~31411| #ex:make-library #ex:register-library! #values)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-cc3f2fe484a3c3672a5081d958f065d6 1
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ (srfi 8) ((receive macro |\x0;receive~1pxGHH~4944| (0) #f (srfi :8 receive))) (((srfi 8 receive) 0)) (|\x0;build~1pxGHH~31411|) |\x0;build~1pxGHH~31412| #ex:make-library #ex:register-library! #values)
+ #f)
+))

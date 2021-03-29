@@ -1,0 +1,11 @@
+#!fasl
+(define .petit-bootstrap-id-795c573ee2e8b5607500fe82836a1aa7 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/R6RS/rnrs/lists.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-795c573ee2e8b5607500fe82836a1aa7 0
+'#(#f #( #f #ex:unspecified #|\x0;assoc~1pxGHH~1540| #|\x0;member~1pxGHH~1539| #|\x0;remove~1pxGHH~1538| #|\x0;fold-right~1pxGHH~1537| #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #ex:undefined #|\x0;assoc~1pxGHH~1540| #|\x0;member~1pxGHH~1539| #|\x0;remove~1pxGHH~1538| #|\x0;fold-right~1pxGHH~1537| #f #( #(#f #f 4 src/Build/compile-standard-libraries.sch #(20 1 0) (t0f0010 t0f0020 t0f0030 t0f0040)) #|\x0;fold-right~1pxGHH~1537| #|\x0;remove~1pxGHH~1538| #|\x0;member~1pxGHH~1539| #|\x0;assoc~1pxGHH~1540| #values)
+ #larceny:fold-right #larceny:remove #larceny:member #larceny:assoc #values #apply)
+ (rnrs lists) ((find variable find (0) #f (larceny PRIMITIVES)) (for-all variable for-all (0) #f (larceny PRIMITIVES)) (exists variable exists (0) #f (larceny PRIMITIVES)) (filter variable filter (0) #f (larceny PRIMITIVES)) (partition variable partition (0) #f (larceny PRIMITIVES)) (fold-left variable fold-left (0) #f (larceny PRIMITIVES)) (fold-right variable |\x0;fold-right~1pxGHH~1537| (0) #f (rnrs lists)) (remp variable remp (0) #f (larceny PRIMITIVES)) (remove variable |\x0;remove~1pxGHH~1538| (0) #f (rnrs lists)) (remq variable remq (0) #f (larceny PRIMITIVES)) (remv variable remv (0) #f (larceny PRIMITIVES)) (memp variable memp (0) #f (larceny PRIMITIVES)) (member variable |\x0;member~1pxGHH~1539| (0) #f (rnrs lists)) (memv variable memv (0) #f (larceny PRIMITIVES)) (memq variable memq (0) #f (larceny PRIMITIVES)) (assp variable assp (0) #f (larceny PRIMITIVES)) (assoc variable |\x0;assoc~1pxGHH~1540| (0) #f (rnrs lists)) (assv variable assv (0) #f (larceny PRIMITIVES)) (assq variable assq (0) #f (larceny PRIMITIVES)) (cons* variable cons* (0) #f (larceny PRIMITIVES))) (((rnrs base) 0)) (|\x0;build~1pxGHH~1533|) |\x0;build~1pxGHH~1541| #ex:make-library #ex:register-library! #values)
+ #f)
+))

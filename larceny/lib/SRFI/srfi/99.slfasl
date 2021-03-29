@@ -1,0 +1,40 @@
+#!fasl
+(define .petit-bootstrap-id-a61755f0d531d1fa90b5d690bab12394 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/SRFI/srfi/99.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-a61755f0d531d1fa90b5d690bab12394 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #values #apply)
+ (srfi 99 records procedural) ((make-rtd variable make-rtd (0) #f (larceny PRIMITIVES)) (rtd? variable rtd? (0) #f (larceny PRIMITIVES)) (rtd-constructor variable rtd-constructor (0) #f (larceny PRIMITIVES)) (rtd-predicate variable rtd-predicate (0) #f (larceny PRIMITIVES)) (rtd-accessor variable rtd-accessor (0) #f (larceny PRIMITIVES)) (rtd-mutator variable rtd-mutator (0) #f (larceny PRIMITIVES))) (((srfi :99 records procedural) 0)) (|\x0;build~1pxGHH~43962|) |\x0;build~1pxGHH~43979| #ex:make-library #ex:register-library! #values)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-a61755f0d531d1fa90b5d690bab12394 1
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #values #apply)
+ (srfi 99 records inspection) ((record? variable record? (0) #f (larceny PRIMITIVES)) (record-rtd variable record-rtd (0) #f (larceny PRIMITIVES)) (rtd-name variable rtd-name (0) #f (larceny PRIMITIVES)) (rtd-parent variable rtd-parent (0) #f (larceny PRIMITIVES)) (rtd-field-names variable rtd-field-names (0) #f (larceny PRIMITIVES)) (rtd-all-field-names variable rtd-all-field-names (0) #f (larceny PRIMITIVES)) (rtd-field-mutable? variable rtd-field-mutable? (0) #f (larceny PRIMITIVES))) (((srfi :99 records inspection) 0)) (|\x0;build~1pxGHH~43963|) |\x0;build~1pxGHH~43980| #ex:make-library #ex:register-library! #values)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-a61755f0d531d1fa90b5d690bab12394 2
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ (srfi 99 records syntactic) ((define-record-type macro |\x0;define-record-type~1pxGHH~3336| (0) #f (larceny r7rs macros))) (((srfi :99 records syntactic) 0)) (|\x0;build~1pxGHH~43964|) |\x0;build~1pxGHH~43981| #ex:make-library #ex:register-library! #values)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-a61755f0d531d1fa90b5d690bab12394 3
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ (srfi 99 records) ((make-rtd variable make-rtd (0) #f (larceny PRIMITIVES)) (rtd? variable rtd? (0) #f (larceny PRIMITIVES)) (rtd-constructor variable rtd-constructor (0) #f (larceny PRIMITIVES)) (rtd-predicate variable rtd-predicate (0) #f (larceny PRIMITIVES)) (rtd-accessor variable rtd-accessor (0) #f (larceny PRIMITIVES)) (rtd-mutator variable rtd-mutator (0) #f (larceny PRIMITIVES)) (record? variable record? (0) #f (larceny PRIMITIVES)) (record-rtd variable record-rtd (0) #f (larceny PRIMITIVES)) (rtd-name variable rtd-name (0) #f (larceny PRIMITIVES)) (rtd-parent variable rtd-parent (0) #f (larceny PRIMITIVES)) (rtd-field-names variable rtd-field-names (0) #f (larceny PRIMITIVES)) (rtd-all-field-names variable rtd-all-field-names (0) #f (larceny PRIMITIVES)) (rtd-field-mutable? variable rtd-field-mutable? (0) #f (larceny PRIMITIVES)) (define-record-type macro |\x0;define-record-type~1pxGHH~3336| (0) #f (larceny r7rs macros))) (((srfi :99 records) 0)) (|\x0;build~1pxGHH~43965|) |\x0;build~1pxGHH~43982| #ex:make-library #ex:register-library! #values)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-a61755f0d531d1fa90b5d690bab12394 4
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ (srfi 99) ((make-rtd variable make-rtd (0) #f (larceny PRIMITIVES)) (rtd? variable rtd? (0) #f (larceny PRIMITIVES)) (rtd-constructor variable rtd-constructor (0) #f (larceny PRIMITIVES)) (rtd-predicate variable rtd-predicate (0) #f (larceny PRIMITIVES)) (rtd-accessor variable rtd-accessor (0) #f (larceny PRIMITIVES)) (rtd-mutator variable rtd-mutator (0) #f (larceny PRIMITIVES)) (record? variable record? (0) #f (larceny PRIMITIVES)) (record-rtd variable record-rtd (0) #f (larceny PRIMITIVES)) (rtd-name variable rtd-name (0) #f (larceny PRIMITIVES)) (rtd-parent variable rtd-parent (0) #f (larceny PRIMITIVES)) (rtd-field-names variable rtd-field-names (0) #f (larceny PRIMITIVES)) (rtd-all-field-names variable rtd-all-field-names (0) #f (larceny PRIMITIVES)) (rtd-field-mutable? variable rtd-field-mutable? (0) #f (larceny PRIMITIVES)) (define-record-type macro |\x0;define-record-type~1pxGHH~3336| (0) #f (larceny r7rs macros))) (((srfi 99 records) 0)) (|\x0;build~1pxGHH~43982|) |\x0;build~1pxGHH~43983| #ex:make-library #ex:register-library! #values)
+ #f)
+))

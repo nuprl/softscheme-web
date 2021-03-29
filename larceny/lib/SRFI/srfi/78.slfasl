@@ -1,0 +1,17 @@
+#!fasl
+(define .petit-bootstrap-id-5a4146802fe6999fd612f17738830dd1 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/SRFI/srfi/78.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-5a4146802fe6999fd612f17738830dd1 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ (srfi 78 lightweight-testing) ((check macro |\x0;check~1pxGHH~78618| (0) #f (srfi :78 lightweight-testing)) (check-ec macro |\x0;check-ec~1pxGHH~78689| (0) #f (srfi :78 lightweight-testing)) (check-report variable |\x0;check-report~1pxGHH~78615| (0) #f (srfi :78 lightweight-testing)) (check-set-mode! variable |\x0;check-set-mode!~1pxGHH~78603| (0) #f (srfi :78 lightweight-testing)) (check-reset! variable |\x0;check-reset!~1pxGHH~78607| (0) #f (srfi :78 lightweight-testing)) (check-passed? variable |\x0;check-passed?~1pxGHH~78616| (0) #f (srfi :78 lightweight-testing))) (((srfi :78 lightweight-testing) 0)) (|\x0;build~1pxGHH~79005|) |\x0;build~1pxGHH~79013| #ex:make-library #ex:register-library! #values)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-5a4146802fe6999fd612f17738830dd1 1
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #f ()) #values)
+ (srfi 78) ((check macro |\x0;check~1pxGHH~78618| (0) #f (srfi :78 lightweight-testing)) (check-ec macro |\x0;check-ec~1pxGHH~78689| (0) #f (srfi :78 lightweight-testing)) (check-report variable |\x0;check-report~1pxGHH~78615| (0) #f (srfi :78 lightweight-testing)) (check-set-mode! variable |\x0;check-set-mode!~1pxGHH~78603| (0) #f (srfi :78 lightweight-testing)) (check-reset! variable |\x0;check-reset!~1pxGHH~78607| (0) #f (srfi :78 lightweight-testing)) (check-passed? variable |\x0;check-passed?~1pxGHH~78616| (0) #f (srfi :78 lightweight-testing))) (((srfi 78 lightweight-testing) 0)) (|\x0;build~1pxGHH~79013|) |\x0;build~1pxGHH~79014| #ex:make-library #ex:register-library! #values)
+ #f)
+))

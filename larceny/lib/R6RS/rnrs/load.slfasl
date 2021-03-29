@@ -1,0 +1,11 @@
+#!fasl
+(define .petit-bootstrap-id-645bf00898000d04a0f5a2f075481a33 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/R6RS/rnrs/load.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-645bf00898000d04a0f5a2f075481a33 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #values #apply)
+ (rnrs load) ((load variable load-r6rs-library-or-program (0) #f (larceny PRIMITIVES))) |\x0;build~1pxGHH~3638| #ex:make-library #ex:register-library! #values)
+ #f)
+))

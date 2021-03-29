@@ -1,0 +1,10 @@
+#!fasl
+(define .petit-bootstrap-id-e06f6f77d49ac3a21a701f8d343e722a (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/SRFI/srfi/45.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-e06f6f77d49ac3a21a701f8d343e722a 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ (srfi 45 lazy) ((delay macro |\x0;delay~1pxGHH~3736| (0) #f (larceny r7rs promises)) (lazy macro |\x0;lazy~1pxGHH~3720| (0) #f (larceny r7rs promises)) (force variable |\x0;force~1pxGHH~3751| (0) #f (larceny r7rs promises)) (eager variable |\x0;eager~1pxGHH~3735| (0) #f (larceny r7rs promises))) (((srfi :45 lazy) 0)) (|\x0;build~1pxGHH~66535|) |\x0;build~1pxGHH~66540| #ex:make-library #ex:register-library! #values)
+ #f)
+))

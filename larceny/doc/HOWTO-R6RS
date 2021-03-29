@@ -1,0 +1,206 @@
+Although Larceny continues to support the R6RS standard, parts
+of that standard (notably lexical syntax) have been superseded
+by the R7RS (small) standard [3].  See HOWTO-R7RS.
+
+
+ABOUT R6RS
+
+In August 2007, the R6RS standard for the Scheme programming
+language was ratified by 65.7% of the voters, which exceeded the
+required 60% supermajority [1].  Most of the R6RS standard has
+been superseded by the R7RS-small standard, which was ratified
+in 2013 by 85.7% of the voters [3].  The R7RS-large standard,
+which is being developed by Scheme Working Group 2, is expected
+to replace the R6RS standard in its entirety.
+
+The most important thing to know about the R6RS is that it was a
+supplement to the R5RS, not a replacement.  The R6RS had nothing
+to say about traditional Scheme programs; it just added two new
+kinds of Scheme programs, both intended for execution of entire
+programs in batch mode.  For interactive read/eval/print loops
+and dynamic loading of libraries or traditional Scheme programs,
+the relevant standards are IEEE-1178, R5RS, and R7RS [2,3].
+Larceny supports all of these standards; for more about R7RS,
+see HOWTO-R7RS.
+
+The second most important thing to know about the R6RS is that
+R6RS programs are not portable unless they limit themselves to
+the standard R6RS libraries and do not define any libraries of
+their own.  The R6RS did not define any mechanism for mapping
+library names to files or to other representations of library
+source or executable code.  Implementations of the R6RS may
+define their own implementation-specific mechanisms that allow
+R6RS programs to define and to import nonstandard libraries,
+but any program that relies on this is non-portable.
+
+R6RS libraries are best regarded as a standard distribution
+syntax for program fragments that can be installed locally
+using some implementation-specific protocol.
+
+
+IMPLEMENTATIONS
+
+Larceny v0.95 was the first complete implementation of an
+R6RS-compatible system.  When v0.95 was released, another
+implementation was 80% complete, and implementors of three
+other systems had announced their intention to support the
+R6RS within a year.  The implementors of thirteen other
+systems had said they did not plan to implement the R6RS in
+toto, although some intended to implement selected features
+of the R6RS.
+
+As of March 2015, eleven implementations of the R6RS or a subset
+have been released.  Eleven implementations of the R7RS or a
+subset have also been released.  Larceny is one of at least
+three implementations of the R7RS that continue to support the
+older R6RS standard.
+
+
+R6RS PROGRAMS
+
+There are two distinct kinds of R6RS programs.  A top-level
+program consists of an import form followed by a sequence
+of definitions and expressions.
+
+A Scheme script has almost the same syntax as a top-level
+programs, but its first line is ignored.  Scheme scripts were
+described by a non-binding and unratified appendix, and are not
+supported by all implementations of the R6RS; their syntax was
+designed for Unix, and Larceny currently supports Scheme scripts
+only on Unix systems.  Experience has shown that Scheme scripts
+are not at all portable between different implementations of the
+R6RS.
+
+
+DEFINING LIBRARIES
+
+As an extension to the R6RS, Larceny allows a top-level
+program or Scheme script to define R6RS libraries within
+the file that contains the top-level program or Scheme
+script, before the import form that begins the top-level
+program.  These libraries must be arranged so that no
+library depends upon libraries that come later in the
+file.
+
+This extension is non-portable.
+
+
+LIBRARY PATH
+
+As an extension to the R6RS, Larceny automatically loads
+libraries when they are first imported, provided Larceny
+can find the libraries in its library search path.  The
+library search path defaults to a path that contains
+the predefined libraries listed in Larceny's user manual [4],
+but more directories can be added to the library search path
+using Larceny's --path command-line option.
+
+Autoloaded libraries must be defined in files that follow
+Larceny's standard naming conventions for R7RS/R6RS
+library files.  These naming conventions are described
+in Larceny's user manual [4].
+
+This extension is non-portable.
+
+
+LIBRARY PATH ENVIRONMENT VARIABLE
+
+As an extension to the R6RS, Larceny allows the library
+path to be specified by a LARCENY_LIBPATH environment
+variable instead of the --path command-line option.
+
+This extension is non-portable.
+
+
+RUNNING A TOP-LEVEL PROGRAM
+
+To run a Scheme script, just execute it the same way
+you'd execute any other Unix script.  For detailed
+instructions, see HOWTO-SCRIPT.
+
+To execute a top-level R6RS program that is contained
+within a file named pgm, type:
+
+    larceny -r6rs -program pgm
+
+The -program option can be omitted, in which case
+Larceny will read the top-level program from standard
+input:
+
+    larceny -r6rs < pgm
+
+If you omit the -program option and do not redirect
+the standard input, then Larceny will wait patiently
+for you to type a complete top-level program into
+standard input, terminating it with an end-of-file.
+
+You probably don't want to do that.  Had you wanted to
+interact with a read/eval/print loop, you'd be using an
+implementation of the R7RS instead of the R6RS.  See
+HOWTO-R7RS.
+
+
+PREDEFINED LIBRARIES
+
+In addition to the standard R6RS libraries, Larceny
+predefines a variety of other libraries that R6RS
+programs and libraries can import.  For a partial
+list of predefined libraries, see Larceny's user
+manual [4].  (R7RS libraries and programs can use the R7RS
+cond-expand facility to determine whether specific libraries
+are available, but cond-expand cannot be used within R6RS
+libraries.)
+
+We recommend that R6RS programs use SRFI 9, SRFI 99, SRFI 131,
+or R7RS records instead of the corresponding R6RS libraries.
+SRFI 9, 99, 131, and R7RS record types interoperate more
+smoothly with R6RS records than R6RS record types themselves
+interoperate with R6RS records, and the standard reference
+implementation of SRFI 99 records (which is a superset of SRFI
+9, SRFI 131, and R7RS records) should run efficiently in
+any R6RS-compatible system that allows new libraries to be
+defined at all.
+
+
+R6RS CONFORMANCE
+
+Larceny is R6RS-compatible but not R6RS-conforming.
+
+That means Larceny is a practical implementation of
+the R6RS, capable of running almost any R6RS program
+with the efficiency you'd expect from an optimizing
+compiler and precise generational garbage collection.
+
+Larceny is non-conforming because it does not perform
+all of the checking for non-portable code that the
+R6RS requires implementations to perform.  Since R6RS
+libraries are non-portable anyway, the R6RS-mandated
+checking for other portability problems is overly
+prescriptive, and would interfere with interoperability
+between R6RS and R7RS libraries and programs.
+
+Larceny performs all checks needed to ensure safety
+as that concept has traditionally been defined.
+
+
+RECOMMENDATIONS
+
+If you are writing a program that will run only in Larceny,
+then there is no good reason for you to limit yourself to
+the R6RS standard.  In Larceny, R7RS programs can use all
+useful features of the R6RS without being limited by R6RS
+restrictions.
+
+If your goal is to create or to distribute substantial
+programs and libraries that will run without modification
+in various implementations of the R6RS, then you will have
+to learn how to write programs that remain within the
+intersection of features that are supported by the set of
+R6RS implementations you wish to use.
+
+--------
+
+[1] http://www.r6rs.org/
+[2] http://www.schemers.org/Documents/Standards/R5RS/
+[3] http://www.scheme-reports.org/
+[4] http://larceny.ccs.neu.edu/doc/

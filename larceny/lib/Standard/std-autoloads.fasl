@@ -1,0 +1,35 @@
+#!fasl
+(define .petit-bootstrap-id-b2558a35ff4471d9badc301812ec104c (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/Standard/std-autoloads.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-b2558a35ff4471d9badc301812ec104c 0
+'#(#f #( #f #osdep-file osdep-file)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-b2558a35ff4471d9badc301812ec104c 1
+'#(#f #( #f #system-features os-name #assq "win32" #string-ci=? "WIN32!" #display #library-vicinity lib #autoload:define-logical-directory auxlib "/Source/Larceny/src/Auxlib/" "~auxlib/osdep-unix.sch" #osdep-file "macos" "Ertevann:Larceny:Larceny-0.42:src:Auxlib:" "~auxlib/osdep-macos.sch")
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-b2558a35ff4471d9badc301812ec104c 2
+'#(#f #( #f #read-substring #write-substring #file-modification-time #file-newer #read-line "~auxlib/io.sch" #autoload)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-b2558a35ff4471d9badc301812ec104c 3
+'#(#f #( #f #aremv! #aremove! #filter #find #remove-duplicates #least #greatest #mappend #make-list #reduce #reduce-right #fold-left #fold-right #iota #list-head #aremq! "~auxlib/list.sch" #autoload)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-b2558a35ff4471d9badc301812ec104c 4
+'#(#f #( #f #relative-pathname? #make-pathname #absolute-pathname? #osdep-file #autoload)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-b2558a35ff4471d9badc301812ec104c 5
+'#(#f #( #f #pretty-line-length #pretty-print "~auxlib/pp.sch" #autoload)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-b2558a35ff4471d9badc301812ec104c 6
+'#(#f #( #f #substring-match-ci #string-prefix=? #->string #string-insert! #string-split #substring-match "~auxlib/string.sch" #autoload)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-b2558a35ff4471d9badc301812ec104c 7
+'#(#f #( #f #osdep-file osdep-file)
+ #f)
+))

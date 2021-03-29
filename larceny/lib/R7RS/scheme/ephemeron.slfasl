@@ -1,0 +1,11 @@
+#!fasl
+(define .petit-bootstrap-id-d88920a256bc80cd904d6a9ae11b8de0 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/R7RS/scheme/ephemeron.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-d88920a256bc80cd904d6a9ae11b8de0 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #values #apply)
+ (scheme ephemeron) ((ephemeron? variable |\x0;ephemeron?~1pxGHH~23933| (0) #f (srfi 124)) (make-ephemeron variable |\x0;make-ephemeron~1pxGHH~23940| (0) #f (srfi 124)) (ephemeron-broken? variable |\x0;ephemeron-broken?~1pxGHH~23943| (0) #f (srfi 124)) (ephemeron-key variable |\x0;ephemeron-key~1pxGHH~23941| (0) #f (srfi 124)) (ephemeron-datum variable |\x0;ephemeron-datum~1pxGHH~23942| (0) #f (srfi 124)) (reference-barrier variable |\x0;reference-barrier~1pxGHH~23944| (0) #f (srfi 124))) (((srfi 124) 0)) (|\x0;build~1pxGHH~24006|) |\x0;build~1pxGHH~24011| #ex:make-library #ex:register-library! #values)
+ #f)
+))

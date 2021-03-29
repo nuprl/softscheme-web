@@ -1,0 +1,19 @@
+#!fasl
+(define .petit-bootstrap-id-bd5e765967fc26c376ae0984f7b8ccfd (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/SRFI/srfi/23.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-bd5e765967fc26c376ae0984f7b8ccfd 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #values #apply)
+ (srfi 23 error) ((error variable error (0) #f (larceny PRIMITIVES))) (((scheme base) 0)) (|\x0;build~1pxGHH~4481|) |\x0;build~1pxGHH~53779| #ex:make-library #ex:register-library! #values)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-bd5e765967fc26c376ae0984f7b8ccfd 1
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #values #apply)
+ (srfi 23) ((error variable error (0) #f (larceny PRIMITIVES))) (((srfi 23 error) 0)) (|\x0;build~1pxGHH~53779|) |\x0;build~1pxGHH~53780| #ex:make-library #ex:register-library! #values)
+ #f)
+))

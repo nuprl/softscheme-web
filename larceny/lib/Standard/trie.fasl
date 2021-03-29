@@ -1,0 +1,20 @@
+#!fasl
+(define .petit-bootstrap-id-1f0ada224cd6691d40debc4610dde483 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/Standard/trie.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-1f0ada224cd6691d40debc4610dde483 0
+'#(#f #( #f list #require)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-1f0ada224cd6691d40debc4610dde483 1
+'#(#f #( #f #f #( ((0 . #(make-trie #f 3 #f #f (same? leaf-flag lists))) (140 . #(make-trie #f 3 #f #f (same? leaf-flag lists)))) #f #( ((0 . #(#f #f 2 #f #f (|.x\|6| |.x\|7|))) (1648 . #(loop #f 2 #f #f (|.y1\|174\|175| |.results\|174\|178|))) (2734 . #(loop #f 2 #f #f (|.y1\|46\|47| |.results\|46\|50|)))) #f #( #(#f #f 2 #f #f (x y)))
+ #accumulate-unordered #append #reverse #caaar)
+ #f #( #(#f #f 0 #f #f ()) #f #( #(#f #f 1 #f #f (x)))
+ #partition)
+ #call-with-values)
+ #make-trie make-trie)
+ #f)
+))
+((.petit-patch-procedure .petit-bootstrap-id-1f0ada224cd6691d40debc4610dde483 2
+'#(#f #( #f "++" #string->symbol (#\+ #\+) "+=" (#\+ #\=) "+@" (#\+ #\@) "--" (#\- #\-) "+++" (#\+ #\+ #\+) ((#\-) . -) ((#\+) . +) #trie-example trie-example)
+ #f)
+))

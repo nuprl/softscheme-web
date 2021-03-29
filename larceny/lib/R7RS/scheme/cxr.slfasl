@@ -1,0 +1,11 @@
+#!fasl
+(define .petit-bootstrap-id-a7bf4ee8dde1e04a7fe7e88a5ebd7127 (.petit-shared-object "/home/henchman/larcenytest/larceny-petit-Nightly-2017-08-06/larceny_src/lib/R7RS/scheme/cxr.slfasl.so"))
+
+((.petit-patch-procedure .petit-bootstrap-id-a7bf4ee8dde1e04a7fe7e88a5ebd7127 0
+'#(#f #( #f #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()))
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #f #( #(#f #f 0 src/Build/compile-standard-libraries.sch #(20 1 0) ()) #values)
+ #values #apply)
+ (scheme cxr) ((caaar variable caaar (0) #f (larceny PRIMITIVES)) (caadr variable caadr (0) #f (larceny PRIMITIVES)) (cadar variable cadar (0) #f (larceny PRIMITIVES)) (caddr variable caddr (0) #f (larceny PRIMITIVES)) (cdaar variable cdaar (0) #f (larceny PRIMITIVES)) (cdadr variable cdadr (0) #f (larceny PRIMITIVES)) (cddar variable cddar (0) #f (larceny PRIMITIVES)) (cdddr variable cdddr (0) #f (larceny PRIMITIVES)) (caaaar variable caaaar (0) #f (larceny PRIMITIVES)) (caaadr variable caaadr (0) #f (larceny PRIMITIVES)) (caadar variable caadar (0) #f (larceny PRIMITIVES)) (caaddr variable caaddr (0) #f (larceny PRIMITIVES)) (cadaar variable cadaar (0) #f (larceny PRIMITIVES)) (cadadr variable cadadr (0) #f (larceny PRIMITIVES)) (caddar variable caddar (0) #f (larceny PRIMITIVES)) (cadddr variable cadddr (0) #f (larceny PRIMITIVES)) (cdaaar variable cdaaar (0) #f (larceny PRIMITIVES)) (cdaadr variable cdaadr (0) #f (larceny PRIMITIVES)) (cdadar variable cdadar (0) #f (larceny PRIMITIVES)) (cdaddr variable cdaddr (0) #f (larceny PRIMITIVES)) (cddaar variable cddaar (0) #f (larceny PRIMITIVES)) (cddadr variable cddadr (0) #f (larceny PRIMITIVES)) (cdddar variable cdddar (0) #f (larceny PRIMITIVES)) (cddddr variable cddddr (0) #f (larceny PRIMITIVES))) (((rnrs base) 0)) (|\x0;build~1pxGHH~1533|) |\x0;build~1pxGHH~4487| #ex:make-library #ex:register-library! #values)
+ #f)
+))

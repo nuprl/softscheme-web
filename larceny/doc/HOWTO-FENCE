@@ -1,0 +1,259 @@
+2 August 2012 / lth@acm.org
+5 May 2015 / WillClinger (updated status)
+
+
+Overview.
+
+This file contains some information about the Fence platform for
+Larceny, and for native ports built on Fence.  The Fence is a
+"platform-independent platform".
+
+The Fence assembler is machine independent and takes a high-level
+intermediate code (MacScheme assembly instructions with many primitive
+operations) and translates it to a low-level intermediate code.  The
+low-level intermediate code is called the Cant; it is at the level of
+a real CPU.  The Cant assembler, in turn, is machine-dependent and
+translates Cant to machine code for a specific target machine.
+
+The Fence assembler supports many optimizations in a portable way and
+generates good code.  In particular, it open-codes many primitives,
+translates the rest to millicode calls, and performs many useful
+peephole optimizations.  All this code will work with any platform
+built on Fence/Cant without further work required.
+
+A simple Cant implementation (minimally about 500 lines of Scheme code
+and 200 lines of assembler in the millicode layer, see the last
+section of this document) will provide decent performance.  An
+optimizing Cant implementation will provide good performance, at least
+on systems that are not completely register-starved.
+
+The Cant instruction set is defined at the end of
+Asm/Fence/pass5p2.sch.  Some assumptions and simplifications are
+documented at the head of that file.
+
+At the time of writing one Cant implementation is operational, for the
+32-bit ARM instruction set on the ARMv7-A CPU.
+
+
+Quick start for developers.
+
+The build procedure is standard; see HOWTO-BUILD for the details.  I
+use the following command for setting up the build system, there is at
+present no "softfp" target but one is easy to create.
+
+  > (setup 'target: 'linux-arm-el-hardfp 'native)
+
+
+Status, 5 May 2015:
+
+- The little-endian ARM-32 Cant implementation with flat4 strings is
+  operational.
+
+- Peephole optimizations have been ported from IAssassin.  There is an
+  ARM-specific optimizer for branch elimination and an ARM
+  disassembler that eases debugging.
+
+- Several different causes of segmentation faults and other fatal errors
+  have been tracked down and fixed.
+
+- Tests passed
+   - System can rebuild its heap in both interpreted and compiled mode
+     (loading from fasl).
+   - Reloading the development system in larceny.heap from source and
+     rebuilding the heap works.
+   - test/Jaffer
+   - test/Lib
+   - test/Compiler
+   - test/R6RS
+   - test/R7RS (including conflicts.scm, Lib, and Numbers)
+   - test/Benchmarking/R7RS
+   - lib/SRFI/test (except tests that need the FFI)
+
+- Tests NOT passed (details down below, after bugs and other items)
+   - test/GC  (no full barrier for regional collector)
+   - test/FFI (no FFI)
+
+Non-filed bugs and other to-do items:
+
+- BUG (possibly very old, OK to just file the bug):
+
+  Looks like the stop-and-copy collector will never collect in
+  response to a stack overflow, but always expand the heap: passing 0
+  to collect_if_no_room() means it will always return 0 (no
+  collection).  Passing STACK_ROOM would have been more appropriate.
+
+- Lars has been rebuilding heaps on the ARM device using interpreter.
+  Will has been rebuilding heaps under Arch Linux ARM using compiler.
+   - Goal: bitwise identical heap
+
+- fence-millicode.c: mc_alloc_bv: some magic to "align" the bytevector
+  so that it is better for code.  Probably x86-specific but lacking a
+  proper ifdef and reasonable motivation.  There is similar code
+  lurking in cheney.c (at least) in forward(), also not ifdef'd.
+
+- Need to work around the use of MOVT in order to run on the ARMv6
+  CPU.  The ARM11 implementation is popular (eg Raspberry Pi, many
+  existing devices) and that uses the ARMv6 architecture.
+
+- Should get Petit Larceny running under ARM Linux.
+
+
+Bugs.
+
+- Timer issues:
+
+  There's a workaround in the Fence millicode for a problem seen on
+  ARM where disable_interrupts() would return a large negative number
+  or zero.  The underlying bug is not known, but it might be a problem
+  (discovered late) where a stale enregistered value was used after
+  the return from a timer trap.
+
+  Need to retest this now, when the bug has been fixed.
+
+
+Larceny bugs to file:
+
+- The test suite in test/Lib fails with an error in the Record tests
+  if run twice in the same system ("nongenerative record type").
+
+- In src/Lib/Arch/Fence/toplevel-target.sch and primops.sch there are
+  commented-out definitions of eg fx+, fx-, fx* -- these are disabled
+  because the R6RS mandated specific exceptions when these operations
+  overflow or are given non-fixnum arguments.  R6RS-compatible (hence
+  slow) definitions are found in Lib/Common/fx.sch and in
+  Compiler/common.imp.sch
+
+- There is no primitive support for bitwise-and, etc, used in eg
+  string->utf8 and utf8->string, but it does not seem that it would be
+  hard to add fixnum fast cases?
+
+
+Other optimization items and concerns.
+
+- Performance should be okay when we stay in native code, bad when
+  we trap to millicode (because the millicode traps to C in almost
+  all cases, notably for generic arithmetic).
+
+  * According to singled-threaded GeekBench, our 3.6 GHz i7-4790
+    is about 4 times as fast as our 2.0 GHz Exynos 5800 (ARMv7A).
+    Eyeballing R7RS benchmark results, Will thinks the Fence/ARM
+    code generator is doing pretty well:
+
+    the i7 is roughly 4 to 5 times as fast on tak, fib, sum
+    the i7 is 10 to 17 times as fast on fibfp, sumfp, fft, nucleic, mbrot
+        (because the IAssassin millicode is bummed for flonums)
+    the i7 is 6 to 25 times as fast on cat, tail, wc, read1, slatex
+        (io-intensive; read1 is the 25x outlier, attributable to the
+        SSD vs micro SD mismatch)
+    the i7 is 4 to 10 times as fast on nboyer, sboyer, gcbench, mperm
+        (gc-intensive, where the i7's 8 MB L3 cache should help)
+
+- Asm/Fence/*.sch
+
+  * Search for TODO in all these files to locate opportunities for
+    performance tweaks (better instruction selection, better
+    strategies) and some other spots that may need attention.
+
+- Code size remains a concern; ARM-32 is about as bad as Sparc.
+
+- It would be better for both ARM and x86 if the value for UNDEFINED
+  could be represented in 8 bits.  Since the low two bits are 10 we
+  can't use a shifted constant on ARM, so it has to be a byte constant.
+  The payoff is smaller code when checking for undefined globals.
+  Unfortunately it looks like the immediate space does not have room for
+  that encoding.
+
+  It is possible to define undefined to mean imm.misc + (0 << 8)
+  instead of imm.misc + (3 << 8) as now.  Nobody uses the former value.
+
+  Measurements shows that that would reduce the ARM heap by 42904 bytes.
+  Probably worth doing, eventually.
+
+
+How to port Larceny using Fence/Cant.
+
+TO BE WRITTEN.
+
+
+------------------------------------------------------------
+
+WHY SHOULD ANYTHING BE NONDETERMINISTIC?
+
+     - GC is not time-based.  (or wasn't, before).
+        (Some gc activity is now time-based, and timer interrupts
+        may be nondeterministic as well.  Timer interrupts based
+        entirely on the software countdown timer produced too much
+        variation for scheduling tasks in the regional collector;
+        this was solved by using a rather short countdown interval
+        while ignoring countdown interrupts that occurred too soon
+        after the previous scheduling interrupt, as determined by
+        the operating system's notion of the actual time.)
+     - Heap addresses as a result of mmap?
+        (Yes, these are nondeterministic.  See below.)
+     - If icache flush, how?  Surely not by the program moving
+         between cores, we must assume the OS takes care of that.
+         (If it's an icache flush bug it's something that is "random"
+         because the program is sometimes moved, sometimes not, and
+         when it is not we have a bug.)  Affinity can be controlled:
+         http://unix.stackexchange.com/questions/23106/limit-process-to-one-cpu-core
+
+  Heap addresses are indeed not stable.  Here are four consecutive
+  invocations with larceny.heap (first expression after start):
+
+     > (syscall 36 (cons 1 2))
+     3055912328
+
+     > (syscall 36 (cons 1 2))
+     3055285640
+
+     > (syscall 36 (cons 1 2))
+     3055338888
+
+     > (syscall 36 (cons 1 2))
+     3055203720
+
+  Nondeterministic heap addresses in Windows 7 helped us to find
+  long-standing latent bugs in alloc.c and memmgr.c; see these
+  commits from 24 and 26 February 2015:
+
+    532461822a157d67c5048daf95df38b5d6faf8df
+    d90f165d98a7250c1425a4b5309727f19467a36e
+
+------------------------------------------------------------
+
+Test suites that do not pass.
+
+Lars reported the following problem, but several crashers have been
+fixed since then:
+
+The GC tests do NOT pass:
+
+   - Benchmark runner just hangs, no diagnosis yet.
+     It could be the missing write barrier or whatever.
+     It hangs hard, ^C does not kill it (from within *shell*),
+     though sending a HUP does.  It does not use any CPU, very strange.
+
+----------------------------------------
+
+Instruction cache flushing on ARM and elsewhere.
+
+Apparently ARM can use the same flushing method as on Sparc, where we
+flush individual addresses / cache lines as we generate code or copy
+bytevectors.  But the instructions to perform the flushing are
+privileged, so a system call is required.  On Linux, there is a system
+call "clear_cache" to clear a range of addresses in the instruction
+cache, but some noise on the web indicates that it is not properly
+implemented in libc on all Android platforms.  Right now
+fence-driver.c makes the system call with inline assembler but this
+could be investigated further.
+
+On the ARM, we have to flush both the data cache and then the
+instruction cache for the addresses / cache lines occupied by the
+copied bytevectors.  Previously, we were flushing only the cache
+lines occupied by the bytevectors before they were copied.  With
+a unified or write-through data cache, the old way worked; it
+isn't guaranteed to work with a split cache that uses write-back
+for the data cache, as is usual for the ARM.
+
+Ticket #724 describes a bug caused by an off-by-one error in the
+cache-flushing routine, which has now been fixed.
