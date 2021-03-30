@@ -1,4 +1,4 @@
-A Web Frontend to Soft Scheme. Contains code from:
+A web frontend for Soft Scheme. Contains code from:
 
 - Soft Scheme: 
   https://github.com/skangas/guile/blob/master/gc-benchmarks/larceny/softscheme.sch
@@ -12,7 +12,7 @@ as follows:
   (cd js && npm install) # just once
   node js
 
-You can build a Docker image all dependencies by running 'make'.
+You can build a Docker image with all dependencies by running 'make'.
 
 You can run the Docker web server like this:
 
