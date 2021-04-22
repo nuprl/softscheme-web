@@ -4,6 +4,8 @@ RUN dpkg --add-architecture i386
 RUN apt-get update -q
 RUN apt-get install -yq nodejs  libc6:i386
 COPY . /softscheme
+WORKDIR /softscheme/js
+RUN npm install
 EXPOSE 8080
 WORKDIR /softscheme
 CMD node js
